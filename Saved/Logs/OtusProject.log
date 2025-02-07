@@ -1562,3 +1562,1722 @@ To disable this warning set CommonUI.Debug.CheckGameViewportClientValid=0 under 
 [2025.02.07-01.37.54:512][226]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2025.02.07-01.37.54:515][226]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
 [2025.02.07-01.37.54:556][227]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2025.02.07-01.38.40:154][678]LogWindowsTextInputMethodSystem: Activated input method: Русский (Россия) - (Keyboard).
+[2025.02.07-01.38.40:154][678]LogWindowsTextInputMethodSystem: Activated input method: Русский (Россия) - (Keyboard).
+[2025.02.07-01.39.39:804][508]LogRenderer: Display: Invalidated clipmap due to WPO threshold change. This can occur due to resolution or FOV changes.
+[2025.02.07-01.39.52:021][906]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.02.07-01.39.52:028][906]LogContentBundle: [FirstPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2025.02.07-01.39.52:028][906]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' started...
+[2025.02.07-01.39.52:030][906]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' took 1.732 ms (total: 11.193 ms)
+[2025.02.07-01.39.52:031][906]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.02.07-01.39.52:066][906]LogPlayLevel: Creating play world package: /Game/Characters/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2025.02.07-01.39.52:069][906]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003412s)
+[2025.02.07-01.39.52:069][906]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Characters/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/Characters/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.003444s)
+[2025.02.07-01.39.52:081][906]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2025.02.07-01.39.52:083][906]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2025.02.07-01.39.52:083][906]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.02.07-01.39.52:083][906]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.02.07-01.39.52:083][906]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Characters/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.02.07-01.39.52:083][906]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.02.07-01.39.52:086][906]LogContentBundle: [FirstPersonMap(Standalone)] Creating new container.
+[2025.02.07-01.39.52:086][906]LogWorldPartition: Display: WorldPartition initialize took 1.595 ms (total: 302.734 ms)
+[2025.02.07-01.39.52:086][906]LogPlayLevel: PIE: World Init took: (0.002418s)
+[2025.02.07-01.39.52:093][906]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2025.02.07-01.39.52:093][906]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.02.07-01.39.52:093][906]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.02.07-01.39.52:093][906]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.02.07-01.39.52:093][906]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.02.07-01.39.52:093][906]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2025.02.07-01.39.52:093][906]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.02.07-01.39.52:093][906]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2025.02.07-01.39.52:093][906]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.02.07-01.39.52:093][906]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.02.07-01.39.52:093][906]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.02.07-01.39.52:093][906]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.02.07-01.39.52:095][906]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.02.07-01.39.52:116][906]LogAudioMixer: Display: Using Audio Hardware Device Динамики (MR720)
+[2025.02.07-01.39.52:116][906]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.02.07-01.39.52:116][906]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.02.07-01.39.52:116][906]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.02.07-01.39.52:116][906]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=7
+[2025.02.07-01.39.52:117][906]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=7
+[2025.02.07-01.39.52:118][906]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=7
+[2025.02.07-01.39.52:118][906]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=7
+[2025.02.07-01.39.52:118][906]LogInit: FAudioDevice initialized with ID 7.
+[2025.02.07-01.39.52:118][906]LogAudio: Display: Audio Device (ID: 7) registered with world 'FirstPersonMap'.
+[2025.02.07-01.39.52:118][906]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 7
+[2025.02.07-01.39.52:118][906]LogUIActionRouter: Display: Found 0 derived classes when attemping to create action router (CommonUIActionRouterBase)
+[2025.02.07-01.39.52:118][906]LogUIActionRouter: Error: Using CommonUI without a CommonGameViewportClient derived game viewport client. CommonUI Input routing will not function correctly.
+To disable this warning set CommonUI.Debug.CheckGameViewportClientValid=0 under [SystemSettings] in your project's DefaultEngine.ini.
+[2025.02.07-01.39.52:120][906]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2025.02.07-01.39.52:122][906]LogWorld: Bringing World /Game/Characters/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2025.02.07-06.39.52
+[2025.02.07-01.39.52:122][906]LogWorld: Bringing up level for play took: 0.002109
+[2025.02.07-01.39.52:123][906]LogOnline: OSS: Created online subsystem instance for: :Context_16
+[2025.02.07-01.39.52:135][906]PIE: Server logged in
+[2025.02.07-01.39.52:136][906]PIE: Play in editor total start time 0,11 seconds.
+[2025.02.07-01.40.10:357][ 75]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.02.07-01.40.10:357][ 75]LogWorld: BeginTearingDown for /Game/Characters/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2025.02.07-01.40.10:357][ 75]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2025.02.07-01.40.10:358][ 75]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.07-01.40.10:358][ 75]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Characters/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap
+[2025.02.07-01.40.10:358][ 75]LogContentBundle: [FirstPersonMap(Standalone)] Deleting container.
+[2025.02.07-01.40.10:358][ 75]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2025.02.07-01.40.10:358][ 75]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2025.02.07-01.40.10:361][ 75]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.02.07-01.40.10:366][ 75]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.07-01.40.10:380][ 75]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.02.07-01.40.10:380][ 75]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 7
+[2025.02.07-01.40.10:380][ 75]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2025.02.07-01.40.10:382][ 75]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2025.02.07-01.40.10:388][ 75]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2025.02.07-01.40.10:431][ 76]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2025.02.07-01.40.36:124][759]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 306.986694
+[2025.02.07-01.40.37:123][762]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.02.07-01.40.37:123][762]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 307.653076, Update Interval: 326.043884
+[2025.02.07-01.45.59:533][ 60]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.02.07-01.45.59:540][ 60]LogContentBundle: [FirstPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2025.02.07-01.45.59:540][ 60]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' started...
+[2025.02.07-01.45.59:542][ 60]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' took 1.846 ms (total: 13.039 ms)
+[2025.02.07-01.45.59:542][ 60]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.02.07-01.45.59:576][ 60]LogPlayLevel: Creating play world package: /Game/Characters/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2025.02.07-01.45.59:579][ 60]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003960s)
+[2025.02.07-01.45.59:579][ 60]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Characters/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/Characters/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.003997s)
+[2025.02.07-01.45.59:593][ 60]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2025.02.07-01.45.59:594][ 60]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2025.02.07-01.45.59:595][ 60]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.02.07-01.45.59:595][ 60]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.02.07-01.45.59:595][ 60]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Characters/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.02.07-01.45.59:595][ 60]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.02.07-01.45.59:596][ 60]LogContentBundle: [FirstPersonMap(Standalone)] Creating new container.
+[2025.02.07-01.45.59:596][ 60]LogWorldPartition: Display: WorldPartition initialize took 1.532 ms (total: 304.267 ms)
+[2025.02.07-01.45.59:596][ 60]LogPlayLevel: PIE: World Init took: (0.002498s)
+[2025.02.07-01.45.59:604][ 60]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2025.02.07-01.45.59:604][ 60]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.02.07-01.45.59:604][ 60]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.02.07-01.45.59:604][ 60]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.02.07-01.45.59:604][ 60]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.02.07-01.45.59:604][ 60]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2025.02.07-01.45.59:604][ 60]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.02.07-01.45.59:604][ 60]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2025.02.07-01.45.59:604][ 60]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.02.07-01.45.59:604][ 60]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.02.07-01.45.59:604][ 60]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.02.07-01.45.59:604][ 60]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.02.07-01.45.59:604][ 60]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.02.07-01.45.59:628][ 60]LogAudioMixer: Display: Using Audio Hardware Device Динамики (MR720)
+[2025.02.07-01.45.59:629][ 60]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.02.07-01.45.59:629][ 60]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.02.07-01.45.59:629][ 60]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.02.07-01.45.59:629][ 60]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=8
+[2025.02.07-01.45.59:629][ 60]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=8
+[2025.02.07-01.45.59:630][ 60]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=8
+[2025.02.07-01.45.59:630][ 60]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=8
+[2025.02.07-01.45.59:630][ 60]LogInit: FAudioDevice initialized with ID 8.
+[2025.02.07-01.45.59:630][ 60]LogAudio: Display: Audio Device (ID: 8) registered with world 'FirstPersonMap'.
+[2025.02.07-01.45.59:630][ 60]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 8
+[2025.02.07-01.45.59:630][ 60]LogUIActionRouter: Display: Found 0 derived classes when attemping to create action router (CommonUIActionRouterBase)
+[2025.02.07-01.45.59:630][ 60]LogUIActionRouter: Error: Using CommonUI without a CommonGameViewportClient derived game viewport client. CommonUI Input routing will not function correctly.
+To disable this warning set CommonUI.Debug.CheckGameViewportClientValid=0 under [SystemSettings] in your project's DefaultEngine.ini.
+[2025.02.07-01.45.59:632][ 60]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2025.02.07-01.45.59:635][ 60]LogWorld: Bringing World /Game/Characters/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2025.02.07-06.45.59
+[2025.02.07-01.45.59:635][ 60]LogWorld: Bringing up level for play took: 0.002343
+[2025.02.07-01.45.59:636][ 60]LogOnline: OSS: Created online subsystem instance for: :Context_17
+[2025.02.07-01.45.59:645][ 60]PIE: Server logged in
+[2025.02.07-01.45.59:646][ 60]PIE: Play in editor total start time 0,107 seconds.
+[2025.02.07-01.46.03:106][464]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.02.07-01.46.03:106][464]LogWorld: BeginTearingDown for /Game/Characters/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2025.02.07-01.46.03:106][464]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2025.02.07-01.46.03:107][464]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.07-01.46.03:107][464]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Characters/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap
+[2025.02.07-01.46.03:107][464]LogContentBundle: [FirstPersonMap(Standalone)] Deleting container.
+[2025.02.07-01.46.03:107][464]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2025.02.07-01.46.03:107][464]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2025.02.07-01.46.03:110][464]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.02.07-01.46.03:115][464]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.07-01.46.03:127][464]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.02.07-01.46.03:128][464]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 8
+[2025.02.07-01.46.03:128][464]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2025.02.07-01.46.03:129][464]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2025.02.07-01.46.03:134][464]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2025.02.07-01.46.03:181][465]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2025.02.07-01.46.06:527][840]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 637.390442
+[2025.02.07-01.46.06:703][861]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.02.07-01.46.06:703][861]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 637.556335, Update Interval: 305.652649
+[2025.02.07-01.46.11:869][447]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.02.07-01.46.11:876][447]LogContentBundle: [FirstPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2025.02.07-01.46.11:876][447]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' started...
+[2025.02.07-01.46.11:878][447]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' took 1.886 ms (total: 14.926 ms)
+[2025.02.07-01.46.11:879][447]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.02.07-01.46.11:905][447]LogPlayLevel: Creating play world package: /Game/Characters/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2025.02.07-01.46.11:909][447]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003464s)
+[2025.02.07-01.46.11:909][447]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Characters/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/Characters/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.003490s)
+[2025.02.07-01.46.11:922][447]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2025.02.07-01.46.11:923][447]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2025.02.07-01.46.11:924][447]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.02.07-01.46.11:924][447]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.02.07-01.46.11:924][447]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Characters/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.02.07-01.46.11:924][447]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.02.07-01.46.11:925][447]LogContentBundle: [FirstPersonMap(Standalone)] Creating new container.
+[2025.02.07-01.46.11:925][447]LogWorldPartition: Display: WorldPartition initialize took 1.533 ms (total: 305.800 ms)
+[2025.02.07-01.46.11:925][447]LogPlayLevel: PIE: World Init took: (0.002401s)
+[2025.02.07-01.46.11:933][447]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2025.02.07-01.46.11:933][447]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.02.07-01.46.11:933][447]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.02.07-01.46.11:933][447]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.02.07-01.46.11:933][447]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.02.07-01.46.11:933][447]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2025.02.07-01.46.11:933][447]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.02.07-01.46.11:933][447]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2025.02.07-01.46.11:933][447]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.02.07-01.46.11:933][447]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.02.07-01.46.11:933][447]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.02.07-01.46.11:933][447]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.02.07-01.46.11:934][447]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.02.07-01.46.11:957][447]LogAudioMixer: Display: Using Audio Hardware Device Динамики (MR720)
+[2025.02.07-01.46.11:957][447]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.02.07-01.46.11:957][447]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.02.07-01.46.11:957][447]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.02.07-01.46.11:957][447]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=9
+[2025.02.07-01.46.11:957][447]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=9
+[2025.02.07-01.46.11:959][447]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=9
+[2025.02.07-01.46.11:959][447]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=9
+[2025.02.07-01.46.11:959][447]LogInit: FAudioDevice initialized with ID 9.
+[2025.02.07-01.46.11:959][447]LogAudio: Display: Audio Device (ID: 9) registered with world 'FirstPersonMap'.
+[2025.02.07-01.46.11:959][447]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 9
+[2025.02.07-01.46.11:959][447]LogUIActionRouter: Display: Found 0 derived classes when attemping to create action router (CommonUIActionRouterBase)
+[2025.02.07-01.46.11:959][447]LogUIActionRouter: Error: Using CommonUI without a CommonGameViewportClient derived game viewport client. CommonUI Input routing will not function correctly.
+To disable this warning set CommonUI.Debug.CheckGameViewportClientValid=0 under [SystemSettings] in your project's DefaultEngine.ini.
+[2025.02.07-01.46.11:961][447]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2025.02.07-01.46.11:963][447]LogWorld: Bringing World /Game/Characters/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2025.02.07-06.46.11
+[2025.02.07-01.46.11:963][447]LogWorld: Bringing up level for play took: 0.002225
+[2025.02.07-01.46.11:964][447]LogOnline: OSS: Created online subsystem instance for: :Context_18
+[2025.02.07-01.46.11:965][447]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2025.02.07-01.46.11:965][447]LogScript: Warning: Script Msg called by: ABP_Maya_C /Game/Characters/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap:PersistentLevel.BP_Maya_C_0.CharacterMesh0.ABP_Maya_C_0
+[2025.02.07-01.46.11:976][447]PIE: Server logged in
+[2025.02.07-01.46.11:976][447]PIE: Play in editor total start time 0,102 seconds.
+[2025.02.07-01.46.25:489][ 59]LogUIActionRouter: Cleaned out [0] inactive UI action bindings
+[2025.02.07-01.46.25:745][ 90]LogAnimation: Warning: Setting an additive animation (Crouch_LeanWalkRight) on an AnimSingleNodeInstance (AnimSingleNodeInstance /Game/Characters/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap:PersistentLevel.BP_Maya_C_0.CharacterMesh0.AnimSingleNodeInstance_0) is not allowed. This will not function correctly in cooked builds!
+[2025.02.07-01.46.25:745][ 90]LogAnimation: Warning: Setting an additive animation (Crouch_LeanWalkRight) on an AnimSingleNodeInstance (AnimSingleNodeInstance /Game/Characters/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap:PersistentLevel.BP_Maya_C_0.CharacterMesh0.AnimSingleNodeInstance_0) is not allowed. This will not function correctly in cooked builds!
+[2025.02.07-01.46.33:746][ 50]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/Characters/FirstPerson/Maps/FirstPersonMap"
+[2025.02.07-01.46.33:746][ 50]LogNet: Browse: /Game/Characters/FirstPerson/Maps/FirstPersonMap
+[2025.02.07-01.46.33:746][ 50]LogLoad: LoadMap: /Game/Characters/FirstPerson/Maps/FirstPersonMap
+[2025.02.07-01.46.33:746][ 50]LogWorld: BeginTearingDown for /Game/Characters/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2025.02.07-01.46.33:746][ 50]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2025.02.07-01.46.33:747][ 50]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.07-01.46.33:747][ 50]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Characters/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap
+[2025.02.07-01.46.33:747][ 50]LogContentBundle: [FirstPersonMap(Standalone)] Deleting container.
+[2025.02.07-01.46.33:747][ 50]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2025.02.07-01.46.33:747][ 50]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2025.02.07-01.46.33:799][ 50]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.02.07-01.46.33:802][ 50]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2025.02.07-01.46.33:803][ 50]LogUIActionRouter: Cleaned out [0] inactive UI action bindings
+[2025.02.07-01.46.33:803][ 50]LogPlayLevel: Creating play world package: /Game/Characters/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2025.02.07-01.46.33:807][ 50]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003401s)
+[2025.02.07-01.46.33:807][ 50]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Characters/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/Characters/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.003439s)
+[2025.02.07-01.46.33:807][ 50]LogAudio: Display: Audio Device (ID: 9) registered with world 'FirstPersonMap'.
+[2025.02.07-01.46.33:807][ 50]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2025.02.07-01.46.33:807][ 50]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.02.07-01.46.33:808][ 50]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.02.07-01.46.33:808][ 50]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Characters/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.02.07-01.46.33:808][ 50]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.02.07-01.46.33:809][ 50]LogContentBundle: [FirstPersonMap(Standalone)] Creating new container.
+[2025.02.07-01.46.33:809][ 50]LogWorldPartition: Display: WorldPartition initialize took 1.343 ms (total: 307.144 ms)
+[2025.02.07-01.46.33:809][ 50]LogPlayLevel: PIE: World Init took: (0.002106s)
+[2025.02.07-01.46.33:809][ 50]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2025.02.07-01.46.33:811][ 50]LogWorld: Bringing World /Game/Characters/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2025.02.07-06.46.33
+[2025.02.07-01.46.33:811][ 50]LogWorld: Bringing up level for play took: 0.001943
+[2025.02.07-01.46.33:812][ 50]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2025.02.07-01.46.33:812][ 50]LogScript: Warning: Script Msg called by: ABP_Maya_C /Game/Characters/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap:PersistentLevel.BP_Maya_C_0.CharacterMesh0.ABP_Maya_C_0
+[2025.02.07-01.46.33:815][ 50]LogLoad: Took 0.069192 seconds to LoadMap(/Game/Characters/FirstPerson/Maps/UEDPIE_0_FirstPersonMap)
+[2025.02.07-01.46.33:815][ 50]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/Characters/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2025.02.07-01.46.53:066][359]LogBlueprintUserMessages: [BP_HealthComponent] 80.0
+[2025.02.07-01.46.55:057][594]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.02.07-01.46.55:057][594]LogWorld: BeginTearingDown for /Game/Characters/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2025.02.07-01.46.55:058][594]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2025.02.07-01.46.55:058][594]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.07-01.46.55:058][594]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Characters/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap
+[2025.02.07-01.46.55:058][594]LogContentBundle: [FirstPersonMap(Standalone)] Deleting container.
+[2025.02.07-01.46.55:058][594]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2025.02.07-01.46.55:058][594]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2025.02.07-01.46.55:061][594]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.02.07-01.46.55:065][594]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.07-01.46.55:076][594]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.02.07-01.46.55:076][594]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 9
+[2025.02.07-01.46.55:076][594]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2025.02.07-01.46.55:077][594]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2025.02.07-01.46.55:083][594]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2025.02.07-01.46.55:126][595]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2025.02.07-01.47.02:574][466]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Characters/ThirdPersonCharacter/Blueprints/BP_Maya.BP_Maya
+[2025.02.07-01.47.02:655][466]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2025.02.07-01.47.02:657][466]LogScript: Warning: Script Msg called by: ABP_Maya_C /Engine/Transient.World_10:PersistentLevel.BP_Maya_C_0.CharacterMesh0.ABP_Maya_C_0
+[2025.02.07-01.47.17:341][899]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.02.07-01.47.17:347][899]LogContentBundle: [FirstPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2025.02.07-01.47.17:347][899]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' started...
+[2025.02.07-01.47.17:350][899]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' took 1.870 ms (total: 16.796 ms)
+[2025.02.07-01.47.17:352][899]LogPlayLevel: [PlayLevel] Compiling ABP_Maya before play...
+[2025.02.07-01.47.17:354][899]LogPlayLevel: [PlayLevel]   Compiling BP_Maya as a dependent...
+[2025.02.07-01.47.17:447][899]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2025.02.07-01.47.17:447][899]LogScript: Warning: Script Msg called by: ABP_Maya_C /Engine/Transient.World_3:PersistentLevel.BP_Maya_C_0.CharacterMesh0.ABP_Maya_C_1
+[2025.02.07-01.47.17:449][899]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2025.02.07-01.47.17:449][899]LogScript: Warning: Script Msg called by: ABP_Maya_C /Engine/Transient.World_10:PersistentLevel.BP_Maya_C_0.CharacterMesh0.ABP_Maya_C_1
+[2025.02.07-01.47.17:451][899]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2025.02.07-01.47.17:451][899]LogScript: Warning: Script Msg called by: ABP_Maya_C /Engine/Transient.World_3:PersistentLevel.BP_Maya_C_1.CharacterMesh0.ABP_Maya_C_0
+[2025.02.07-01.47.17:476][899]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2025.02.07-01.47.17:476][899]LogScript: Warning: Script Msg called by: ABP_Maya_C /Engine/Transient.World_10:PersistentLevel.BP_Maya_C_0.CharacterMesh0.ABP_Maya_C_1
+[2025.02.07-01.47.17:479][899]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2025.02.07-01.47.17:479][899]LogScript: Warning: Script Msg called by: ABP_Maya_C /Engine/Transient.World_3:PersistentLevel.BP_Maya_C_1.CharacterMesh0.ABP_Maya_C_0
+[2025.02.07-01.47.17:502][899]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2025.02.07-01.47.17:503][899]LogPlayLevel: PlayLevel: Blueprint regeneration took 152 ms (2 blueprints)
+[2025.02.07-01.47.17:503][899]LogPlayLevel: Creating play world package: /Game/Characters/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2025.02.07-01.47.17:506][899]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003382s)
+[2025.02.07-01.47.17:506][899]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Characters/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/Characters/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.003406s)
+[2025.02.07-01.47.17:518][899]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2025.02.07-01.47.17:519][899]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2025.02.07-01.47.17:519][899]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.02.07-01.47.17:519][899]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.02.07-01.47.17:519][899]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Characters/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.02.07-01.47.17:519][899]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.02.07-01.47.17:521][899]LogContentBundle: [FirstPersonMap(Standalone)] Creating new container.
+[2025.02.07-01.47.17:521][899]LogWorldPartition: Display: WorldPartition initialize took 1.479 ms (total: 308.623 ms)
+[2025.02.07-01.47.17:521][899]LogPlayLevel: PIE: World Init took: (0.002288s)
+[2025.02.07-01.47.17:528][899]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2025.02.07-01.47.17:528][899]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.02.07-01.47.17:528][899]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.02.07-01.47.17:528][899]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.02.07-01.47.17:528][899]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.02.07-01.47.17:528][899]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2025.02.07-01.47.17:528][899]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.02.07-01.47.17:528][899]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2025.02.07-01.47.17:528][899]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.02.07-01.47.17:528][899]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.02.07-01.47.17:528][899]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.02.07-01.47.17:528][899]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.02.07-01.47.17:530][899]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.02.07-01.47.17:552][899]LogAudioMixer: Display: Using Audio Hardware Device Динамики (MR720)
+[2025.02.07-01.47.17:552][899]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.02.07-01.47.17:552][899]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.02.07-01.47.17:552][899]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.02.07-01.47.17:552][899]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=10
+[2025.02.07-01.47.17:552][899]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=10
+[2025.02.07-01.47.17:554][899]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=10
+[2025.02.07-01.47.17:554][899]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=10
+[2025.02.07-01.47.17:554][899]LogInit: FAudioDevice initialized with ID 10.
+[2025.02.07-01.47.17:554][899]LogAudio: Display: Audio Device (ID: 10) registered with world 'FirstPersonMap'.
+[2025.02.07-01.47.17:554][899]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 10
+[2025.02.07-01.47.17:554][899]LogUIActionRouter: Display: Found 0 derived classes when attemping to create action router (CommonUIActionRouterBase)
+[2025.02.07-01.47.17:554][899]LogUIActionRouter: Error: Using CommonUI without a CommonGameViewportClient derived game viewport client. CommonUI Input routing will not function correctly.
+To disable this warning set CommonUI.Debug.CheckGameViewportClientValid=0 under [SystemSettings] in your project's DefaultEngine.ini.
+[2025.02.07-01.47.17:623][899]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.02.07-01.47.17:624][899]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2025.02.07-01.47.17:627][899]LogWorld: Bringing World /Game/Characters/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2025.02.07-06.47.17
+[2025.02.07-01.47.17:628][899]LogWorld: Bringing up level for play took: 0.003484
+[2025.02.07-01.47.17:630][899]LogOnline: OSS: Created online subsystem instance for: :Context_22
+[2025.02.07-01.47.17:632][899]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2025.02.07-01.47.17:632][899]LogScript: Warning: Script Msg called by: ABP_Maya_C /Game/Characters/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap:PersistentLevel.BP_Maya_C_0.CharacterMesh0.ABP_Maya_C_0
+[2025.02.07-01.47.17:642][899]PIE: Server logged in
+[2025.02.07-01.47.17:644][899]PIE: Play in editor total start time 0,297 seconds.
+[2025.02.07-01.47.30:567][712]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.02.07-01.47.30:567][712]LogWorld: BeginTearingDown for /Game/Characters/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2025.02.07-01.47.30:568][712]LogSlate: Window 'OtusProject Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2025.02.07-01.47.30:572][712]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2025.02.07-01.47.30:573][712]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.07-01.47.30:573][712]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Characters/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap
+[2025.02.07-01.47.30:573][712]LogContentBundle: [FirstPersonMap(Standalone)] Deleting container.
+[2025.02.07-01.47.30:573][712]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2025.02.07-01.47.30:573][712]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2025.02.07-01.47.30:576][712]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.02.07-01.47.30:580][712]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.07-01.47.30:595][712]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 10
+[2025.02.07-01.47.30:595][712]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2025.02.07-01.47.30:597][712]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2025.02.07-01.47.30:603][712]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2025.02.07-01.47.30:647][713]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2025.02.07-01.47.40:508][574]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_Maya_C /Engine/Transient.World_13:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Maya_C_0
+	Function /Game/Characters/ThirdPersonCharacter/Animations/ABP_Maya.ABP_Maya_C:ExecuteUbergraph_ABP_Maya:0361
+[2025.02.07-01.47.40:508][574]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_Maya_C /Engine/Transient.World_13:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Maya_C_0
+	Function /Game/Characters/ThirdPersonCharacter/Animations/ABP_Maya.ABP_Maya_C:ExecuteUbergraph_ABP_Maya:03F1
+[2025.02.07-01.47.40:508][574]LogScript: Warning: Accessed None trying to read property Character
+	ABP_Maya_C /Engine/Transient.World_13:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Maya_C_0
+	Function /Game/Characters/ThirdPersonCharacter/Animations/ABP_Maya.ABP_Maya_C:ExecuteUbergraph_ABP_Maya:043D
+[2025.02.07-01.47.40:508][574]LogScript: Warning: Accessed None trying to read property Character
+	ABP_Maya_C /Engine/Transient.World_13:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Maya_C_0
+	Function /Game/Characters/ThirdPersonCharacter/Animations/ABP_Maya.ABP_Maya_C:ExecuteUbergraph_ABP_Maya:0468
+[2025.02.07-01.47.40:508][574]LogScript: Warning: Accessed None
+	ABP_Maya_C /Engine/Transient.World_13:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Maya_C_0
+	Function /Game/Characters/ThirdPersonCharacter/Animations/ABP_Maya.ABP_Maya_C:ExecuteUbergraph_ABP_Maya:047D
+[2025.02.07-01.47.40:508][574]LogScript: Warning: Accessed None trying to read property Character
+	ABP_Maya_C /Engine/Transient.World_13:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Maya_C_0
+	Function /Game/Characters/ThirdPersonCharacter/Animations/ABP_Maya.ABP_Maya_C:ExecuteUbergraph_ABP_Maya:04C8
+[2025.02.07-01.47.40:508][574]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2025.02.07-01.47.40:508][574]LogScript: Warning: Script Msg called by: ABP_Maya_C /Engine/Transient.World_13:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Maya_C_0
+[2025.02.07-01.47.40:508][574]LogScript: Warning: Accessed None trying to read property Character
+	ABP_Maya_C /Engine/Transient.World_13:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Maya_C_0
+	Function /Game/Characters/ThirdPersonCharacter/Animations/ABP_Maya.ABP_Maya_C:ExecuteUbergraph_ABP_Maya:062C
+[2025.02.07-01.47.47:470][152]LogAssetEditorSubsystem: Opening Asset editor for BlendSpace1D /Game/Characters/ThirdPersonCharacter/Animations/Riffle/Locomotion/BS_RiffleLocomotion.BS_RiffleLocomotion
+[2025.02.07-01.47.47:486][152]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Engine/EditorMeshes/AssetViewer/Sphere_inversenormals) ...
+[2025.02.07-01.47.47:508][152]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Engine/EditorMeshes/AssetViewer/Floor_Mesh) ...
+[2025.02.07-01.47.47:525][152]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_15:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.02.07-01.47.47:879][152]LogContentBrowser: Verbose: The majority of assets in the view are of type: /Script/Engine.AnimSequence
+[2025.02.07-01.47.56:721][182]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.02.07-01.47.56:728][182]LogContentBundle: [FirstPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2025.02.07-01.47.56:728][182]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' started...
+[2025.02.07-01.47.56:730][182]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' took 1.847 ms (total: 18.643 ms)
+[2025.02.07-01.47.56:731][182]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.02.07-01.47.56:766][182]LogPlayLevel: Creating play world package: /Game/Characters/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2025.02.07-01.47.56:769][182]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003667s)
+[2025.02.07-01.47.56:769][182]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Characters/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/Characters/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.003697s)
+[2025.02.07-01.47.56:781][182]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2025.02.07-01.47.56:783][182]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2025.02.07-01.47.56:783][182]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.02.07-01.47.56:783][182]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.02.07-01.47.56:783][182]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Characters/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.02.07-01.47.56:783][182]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.02.07-01.47.56:784][182]LogContentBundle: [FirstPersonMap(Standalone)] Creating new container.
+[2025.02.07-01.47.56:784][182]LogWorldPartition: Display: WorldPartition initialize took 1.544 ms (total: 310.168 ms)
+[2025.02.07-01.47.56:784][182]LogPlayLevel: PIE: World Init took: (0.002371s)
+[2025.02.07-01.47.56:791][182]LogAudio: Display: Creating Audio Device:                 Id: 11, Scope: Unique, Realtime: True
+[2025.02.07-01.47.56:791][182]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.02.07-01.47.56:791][182]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.02.07-01.47.56:792][182]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.02.07-01.47.56:792][182]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.02.07-01.47.56:792][182]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2025.02.07-01.47.56:792][182]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.02.07-01.47.56:792][182]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2025.02.07-01.47.56:792][182]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.02.07-01.47.56:792][182]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.02.07-01.47.56:792][182]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.02.07-01.47.56:792][182]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.02.07-01.47.56:793][182]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.02.07-01.47.56:815][182]LogAudioMixer: Display: Using Audio Hardware Device Динамики (MR720)
+[2025.02.07-01.47.56:815][182]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.02.07-01.47.56:815][182]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.02.07-01.47.56:815][182]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.02.07-01.47.56:817][182]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=11
+[2025.02.07-01.47.56:817][182]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=11
+[2025.02.07-01.47.56:818][182]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=11
+[2025.02.07-01.47.56:818][182]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=11
+[2025.02.07-01.47.56:818][182]LogInit: FAudioDevice initialized with ID 11.
+[2025.02.07-01.47.56:818][182]LogAudio: Display: Audio Device (ID: 11) registered with world 'FirstPersonMap'.
+[2025.02.07-01.47.56:818][182]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 11
+[2025.02.07-01.47.56:818][182]LogUIActionRouter: Display: Found 0 derived classes when attemping to create action router (CommonUIActionRouterBase)
+[2025.02.07-01.47.56:818][182]LogUIActionRouter: Error: Using CommonUI without a CommonGameViewportClient derived game viewport client. CommonUI Input routing will not function correctly.
+To disable this warning set CommonUI.Debug.CheckGameViewportClientValid=0 under [SystemSettings] in your project's DefaultEngine.ini.
+[2025.02.07-01.47.56:820][182]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2025.02.07-01.47.56:823][182]LogWorld: Bringing World /Game/Characters/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2025.02.07-06.47.56
+[2025.02.07-01.47.56:823][182]LogWorld: Bringing up level for play took: 0.002330
+[2025.02.07-01.47.56:824][182]LogOnline: OSS: Created online subsystem instance for: :Context_28
+[2025.02.07-01.47.56:825][182]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2025.02.07-01.47.56:825][182]LogScript: Warning: Script Msg called by: ABP_Maya_C /Game/Characters/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap:PersistentLevel.BP_Maya_C_0.CharacterMesh0.ABP_Maya_C_0
+[2025.02.07-01.47.56:835][182]PIE: Server logged in
+[2025.02.07-01.47.56:836][182]PIE: Play in editor total start time 0,11 seconds.
+[2025.02.07-01.47.57:697][278]LogBlueprintUserMessages: [BP_HealthComponent] 99.8
+[2025.02.07-01.47.57:705][279]LogBlueprintUserMessages: [BP_HealthComponent] 99.6
+[2025.02.07-01.47.57:714][280]LogBlueprintUserMessages: [BP_HealthComponent] 99.4
+[2025.02.07-01.47.57:723][281]LogBlueprintUserMessages: [BP_HealthComponent] 99.2
+[2025.02.07-01.47.57:730][282]LogBlueprintUserMessages: [BP_HealthComponent] 99.0
+[2025.02.07-01.47.57:739][283]LogBlueprintUserMessages: [BP_HealthComponent] 98.8
+[2025.02.07-01.47.57:748][284]LogBlueprintUserMessages: [BP_HealthComponent] 98.6
+[2025.02.07-01.47.57:755][285]LogBlueprintUserMessages: [BP_HealthComponent] 98.4
+[2025.02.07-01.47.57:763][286]LogBlueprintUserMessages: [BP_HealthComponent] 98.2
+[2025.02.07-01.47.57:773][287]LogBlueprintUserMessages: [BP_HealthComponent] 98.0
+[2025.02.07-01.47.57:781][288]LogBlueprintUserMessages: [BP_HealthComponent] 97.8
+[2025.02.07-01.47.57:790][289]LogBlueprintUserMessages: [BP_HealthComponent] 97.6
+[2025.02.07-01.47.57:797][290]LogBlueprintUserMessages: [BP_HealthComponent] 97.4
+[2025.02.07-01.47.57:806][291]LogBlueprintUserMessages: [BP_HealthComponent] 97.2
+[2025.02.07-01.47.57:813][292]LogBlueprintUserMessages: [BP_HealthComponent] 97.0
+[2025.02.07-01.47.57:823][293]LogBlueprintUserMessages: [BP_HealthComponent] 96.8
+[2025.02.07-01.47.57:831][294]LogBlueprintUserMessages: [BP_HealthComponent] 96.6
+[2025.02.07-01.47.57:839][295]LogBlueprintUserMessages: [BP_HealthComponent] 96.4
+[2025.02.07-01.47.57:848][296]LogBlueprintUserMessages: [BP_HealthComponent] 96.2
+[2025.02.07-01.47.57:856][297]LogBlueprintUserMessages: [BP_HealthComponent] 96.0
+[2025.02.07-01.47.57:865][298]LogBlueprintUserMessages: [BP_HealthComponent] 95.8
+[2025.02.07-01.47.57:872][299]LogBlueprintUserMessages: [BP_HealthComponent] 95.6
+[2025.02.07-01.47.57:881][300]LogBlueprintUserMessages: [BP_HealthComponent] 95.4
+[2025.02.07-01.47.57:890][301]LogBlueprintUserMessages: [BP_HealthComponent] 95.2
+[2025.02.07-01.47.57:898][302]LogBlueprintUserMessages: [BP_HealthComponent] 95.0
+[2025.02.07-01.47.57:906][303]LogBlueprintUserMessages: [BP_HealthComponent] 94.8
+[2025.02.07-01.47.57:914][304]LogBlueprintUserMessages: [BP_HealthComponent] 94.6
+[2025.02.07-01.47.57:922][305]LogBlueprintUserMessages: [BP_HealthComponent] 94.4
+[2025.02.07-01.47.57:930][306]LogBlueprintUserMessages: [BP_HealthComponent] 94.2
+[2025.02.07-01.47.57:939][307]LogBlueprintUserMessages: [BP_HealthComponent] 94.0
+[2025.02.07-01.47.57:948][308]LogBlueprintUserMessages: [BP_HealthComponent] 93.8
+[2025.02.07-01.47.57:955][309]LogBlueprintUserMessages: [BP_HealthComponent] 93.6
+[2025.02.07-01.47.57:964][310]LogBlueprintUserMessages: [BP_HealthComponent] 93.4
+[2025.02.07-01.47.57:972][311]LogBlueprintUserMessages: [BP_HealthComponent] 93.2
+[2025.02.07-01.47.57:981][312]LogBlueprintUserMessages: [BP_HealthComponent] 93.0
+[2025.02.07-01.47.57:989][313]LogBlueprintUserMessages: [BP_HealthComponent] 92.8
+[2025.02.07-01.47.57:997][314]LogBlueprintUserMessages: [BP_HealthComponent] 92.6
+[2025.02.07-01.47.58:006][315]LogBlueprintUserMessages: [BP_HealthComponent] 92.4
+[2025.02.07-01.47.58:014][316]LogBlueprintUserMessages: [BP_HealthComponent] 92.2
+[2025.02.07-01.47.58:023][317]LogBlueprintUserMessages: [BP_HealthComponent] 92.0
+[2025.02.07-01.47.58:030][318]LogBlueprintUserMessages: [BP_HealthComponent] 91.8
+[2025.02.07-01.47.58:039][319]LogBlueprintUserMessages: [BP_HealthComponent] 91.6
+[2025.02.07-01.47.58:048][320]LogBlueprintUserMessages: [BP_HealthComponent] 91.4
+[2025.02.07-01.47.58:055][321]LogBlueprintUserMessages: [BP_HealthComponent] 91.2
+[2025.02.07-01.47.58:064][322]LogBlueprintUserMessages: [BP_HealthComponent] 91.0
+[2025.02.07-01.47.58:073][323]LogBlueprintUserMessages: [BP_HealthComponent] 90.8
+[2025.02.07-01.47.58:081][324]LogBlueprintUserMessages: [BP_HealthComponent] 90.6
+[2025.02.07-01.47.58:089][325]LogBlueprintUserMessages: [BP_HealthComponent] 90.4
+[2025.02.07-01.47.58:098][326]LogBlueprintUserMessages: [BP_HealthComponent] 90.2
+[2025.02.07-01.47.58:106][327]LogBlueprintUserMessages: [BP_HealthComponent] 90.0
+[2025.02.07-01.47.58:114][328]LogBlueprintUserMessages: [BP_HealthComponent] 89.8
+[2025.02.07-01.47.58:122][329]LogBlueprintUserMessages: [BP_HealthComponent] 89.6
+[2025.02.07-01.47.58:130][330]LogBlueprintUserMessages: [BP_HealthComponent] 89.4
+[2025.02.07-01.47.58:138][331]LogBlueprintUserMessages: [BP_HealthComponent] 89.2
+[2025.02.07-01.47.58:147][332]LogBlueprintUserMessages: [BP_HealthComponent] 89.0
+[2025.02.07-01.47.58:156][333]LogBlueprintUserMessages: [BP_HealthComponent] 88.8
+[2025.02.07-01.47.58:163][334]LogBlueprintUserMessages: [BP_HealthComponent] 88.6
+[2025.02.07-01.47.58:173][335]LogBlueprintUserMessages: [BP_HealthComponent] 88.4
+[2025.02.07-01.47.58:181][336]LogBlueprintUserMessages: [BP_HealthComponent] 88.2
+[2025.02.07-01.47.58:188][337]LogBlueprintUserMessages: [BP_HealthComponent] 88.0
+[2025.02.07-01.47.58:197][338]LogBlueprintUserMessages: [BP_HealthComponent] 87.8
+[2025.02.07-01.47.58:205][339]LogBlueprintUserMessages: [BP_HealthComponent] 87.6
+[2025.02.07-01.47.58:214][340]LogBlueprintUserMessages: [BP_HealthComponent] 87.4
+[2025.02.07-01.47.58:223][341]LogBlueprintUserMessages: [BP_HealthComponent] 87.2
+[2025.02.07-01.47.58:230][342]LogBlueprintUserMessages: [BP_HealthComponent] 87.0
+[2025.02.07-01.47.58:238][343]LogBlueprintUserMessages: [BP_HealthComponent] 86.8
+[2025.02.07-01.47.58:247][344]LogBlueprintUserMessages: [BP_HealthComponent] 86.6
+[2025.02.07-01.47.58:255][345]LogBlueprintUserMessages: [BP_HealthComponent] 86.4
+[2025.02.07-01.47.58:264][346]LogBlueprintUserMessages: [BP_HealthComponent] 86.2
+[2025.02.07-01.47.58:272][347]LogBlueprintUserMessages: [BP_HealthComponent] 86.0
+[2025.02.07-01.47.58:280][348]LogBlueprintUserMessages: [BP_HealthComponent] 85.8
+[2025.02.07-01.47.58:289][349]LogBlueprintUserMessages: [BP_HealthComponent] 85.6
+[2025.02.07-01.47.58:297][350]LogBlueprintUserMessages: [BP_HealthComponent] 85.4
+[2025.02.07-01.47.58:305][351]LogBlueprintUserMessages: [BP_HealthComponent] 85.2
+[2025.02.07-01.47.58:314][352]LogBlueprintUserMessages: [BP_HealthComponent] 85.0
+[2025.02.07-01.47.58:322][353]LogBlueprintUserMessages: [BP_HealthComponent] 84.8
+[2025.02.07-01.47.58:330][354]LogBlueprintUserMessages: [BP_HealthComponent] 84.6
+[2025.02.07-01.47.58:339][355]LogBlueprintUserMessages: [BP_HealthComponent] 84.4
+[2025.02.07-01.47.58:347][356]LogBlueprintUserMessages: [BP_HealthComponent] 84.2
+[2025.02.07-01.47.58:356][357]LogBlueprintUserMessages: [BP_HealthComponent] 84.0
+[2025.02.07-01.47.58:364][358]LogBlueprintUserMessages: [BP_HealthComponent] 83.8
+[2025.02.07-01.47.58:373][359]LogBlueprintUserMessages: [BP_HealthComponent] 83.6
+[2025.02.07-01.47.58:381][360]LogBlueprintUserMessages: [BP_HealthComponent] 83.4
+[2025.02.07-01.47.58:388][361]LogBlueprintUserMessages: [BP_HealthComponent] 83.2
+[2025.02.07-01.47.58:397][362]LogBlueprintUserMessages: [BP_HealthComponent] 83.0
+[2025.02.07-01.47.58:406][363]LogBlueprintUserMessages: [BP_HealthComponent] 82.8
+[2025.02.07-01.47.58:414][364]LogBlueprintUserMessages: [BP_HealthComponent] 82.6
+[2025.02.07-01.47.58:424][365]LogBlueprintUserMessages: [BP_HealthComponent] 82.4
+[2025.02.07-01.47.58:431][366]LogBlueprintUserMessages: [BP_HealthComponent] 82.2
+[2025.02.07-01.47.58:440][367]LogBlueprintUserMessages: [BP_HealthComponent] 82.0
+[2025.02.07-01.47.58:448][368]LogBlueprintUserMessages: [BP_HealthComponent] 81.8
+[2025.02.07-01.47.58:456][369]LogBlueprintUserMessages: [BP_HealthComponent] 81.6
+[2025.02.07-01.47.58:465][370]LogBlueprintUserMessages: [BP_HealthComponent] 81.4
+[2025.02.07-01.47.58:473][371]LogBlueprintUserMessages: [BP_HealthComponent] 81.2
+[2025.02.07-01.47.58:481][372]LogBlueprintUserMessages: [BP_HealthComponent] 81.0
+[2025.02.07-01.47.58:489][373]LogBlueprintUserMessages: [BP_HealthComponent] 80.8
+[2025.02.07-01.47.58:497][374]LogBlueprintUserMessages: [BP_HealthComponent] 80.6
+[2025.02.07-01.47.58:506][375]LogBlueprintUserMessages: [BP_HealthComponent] 80.4
+[2025.02.07-01.47.58:514][376]LogBlueprintUserMessages: [BP_HealthComponent] 80.2
+[2025.02.07-01.47.58:523][377]LogBlueprintUserMessages: [BP_HealthComponent] 80.0
+[2025.02.07-01.47.58:531][378]LogBlueprintUserMessages: [BP_HealthComponent] 79.8
+[2025.02.07-01.47.58:539][379]LogBlueprintUserMessages: [BP_HealthComponent] 79.6
+[2025.02.07-01.47.58:548][380]LogBlueprintUserMessages: [BP_HealthComponent] 79.4
+[2025.02.07-01.47.58:556][381]LogBlueprintUserMessages: [BP_HealthComponent] 79.2
+[2025.02.07-01.47.58:565][382]LogBlueprintUserMessages: [BP_HealthComponent] 79.0
+[2025.02.07-01.47.58:572][383]LogBlueprintUserMessages: [BP_HealthComponent] 78.8
+[2025.02.07-01.47.58:582][384]LogBlueprintUserMessages: [BP_HealthComponent] 78.6
+[2025.02.07-01.47.58:590][385]LogBlueprintUserMessages: [BP_HealthComponent] 78.4
+[2025.02.07-01.47.58:598][386]LogBlueprintUserMessages: [BP_HealthComponent] 78.2
+[2025.02.07-01.47.58:606][387]LogBlueprintUserMessages: [BP_HealthComponent] 78.0
+[2025.02.07-01.47.58:614][388]LogBlueprintUserMessages: [BP_HealthComponent] 77.8
+[2025.02.07-01.47.58:623][389]LogBlueprintUserMessages: [BP_HealthComponent] 77.6
+[2025.02.07-01.47.58:631][390]LogBlueprintUserMessages: [BP_HealthComponent] 77.4
+[2025.02.07-01.47.58:640][391]LogBlueprintUserMessages: [BP_HealthComponent] 77.2
+[2025.02.07-01.47.58:648][392]LogBlueprintUserMessages: [BP_HealthComponent] 77.0
+[2025.02.07-01.47.58:656][393]LogBlueprintUserMessages: [BP_HealthComponent] 76.8
+[2025.02.07-01.47.58:664][394]LogBlueprintUserMessages: [BP_HealthComponent] 76.6
+[2025.02.07-01.47.58:672][395]LogBlueprintUserMessages: [BP_HealthComponent] 76.4
+[2025.02.07-01.47.58:681][396]LogBlueprintUserMessages: [BP_HealthComponent] 76.2
+[2025.02.07-01.47.58:690][397]LogBlueprintUserMessages: [BP_HealthComponent] 76.0
+[2025.02.07-01.47.58:697][398]LogBlueprintUserMessages: [BP_HealthComponent] 75.8
+[2025.02.07-01.47.58:706][399]LogBlueprintUserMessages: [BP_HealthComponent] 75.6
+[2025.02.07-01.47.58:714][400]LogBlueprintUserMessages: [BP_HealthComponent] 75.4
+[2025.02.07-01.47.58:723][401]LogBlueprintUserMessages: [BP_HealthComponent] 75.2
+[2025.02.07-01.47.58:731][402]LogBlueprintUserMessages: [BP_HealthComponent] 75.0
+[2025.02.07-01.47.58:740][403]LogBlueprintUserMessages: [BP_HealthComponent] 74.8
+[2025.02.07-01.47.58:748][404]LogBlueprintUserMessages: [BP_HealthComponent] 74.6
+[2025.02.07-01.47.58:756][405]LogBlueprintUserMessages: [BP_HealthComponent] 74.4
+[2025.02.07-01.47.58:765][406]LogBlueprintUserMessages: [BP_HealthComponent] 74.2
+[2025.02.07-01.47.58:773][407]LogBlueprintUserMessages: [BP_HealthComponent] 74.0
+[2025.02.07-01.47.58:782][408]LogBlueprintUserMessages: [BP_HealthComponent] 74.416675
+[2025.02.07-01.47.58:790][409]LogBlueprintUserMessages: [BP_HealthComponent] 74.83335
+[2025.02.07-01.47.58:798][410]LogBlueprintUserMessages: [BP_HealthComponent] 75.250025
+[2025.02.07-01.47.58:807][411]LogBlueprintUserMessages: [BP_HealthComponent] 75.666695
+[2025.02.07-01.47.58:815][412]LogBlueprintUserMessages: [BP_HealthComponent] 76.083365
+[2025.02.07-01.47.58:823][413]LogBlueprintUserMessages: [BP_HealthComponent] 76.500035
+[2025.02.07-01.47.58:832][414]LogBlueprintUserMessages: [BP_HealthComponent] 76.91671
+[2025.02.07-01.47.58:839][415]LogBlueprintUserMessages: [BP_HealthComponent] 77.333385
+[2025.02.07-01.47.58:848][416]LogBlueprintUserMessages: [BP_HealthComponent] 77.750055
+[2025.02.07-01.47.58:856][417]LogBlueprintUserMessages: [BP_HealthComponent] 78.166725
+[2025.02.07-01.47.58:865][418]LogBlueprintUserMessages: [BP_HealthComponent] 78.5834
+[2025.02.07-01.47.58:873][419]LogBlueprintUserMessages: [BP_HealthComponent] 79.00007
+[2025.02.07-01.47.58:881][420]LogBlueprintUserMessages: [BP_HealthComponent] 79.41674
+[2025.02.07-01.47.58:890][421]LogBlueprintUserMessages: [BP_HealthComponent] 79.83341
+[2025.02.07-01.47.58:898][422]LogBlueprintUserMessages: [BP_HealthComponent] 80.25008
+[2025.02.07-01.47.58:906][423]LogBlueprintUserMessages: [BP_HealthComponent] 80.66675
+[2025.02.07-01.47.58:916][424]LogBlueprintUserMessages: [BP_HealthComponent] 81.08342
+[2025.02.07-01.47.58:923][425]LogBlueprintUserMessages: [BP_HealthComponent] 81.5001
+[2025.02.07-01.47.58:932][426]LogBlueprintUserMessages: [BP_HealthComponent] 81.91677
+[2025.02.07-01.47.58:940][427]LogBlueprintUserMessages: [BP_HealthComponent] 82.333445
+[2025.02.07-01.47.58:948][428]LogBlueprintUserMessages: [BP_HealthComponent] 82.75012
+[2025.02.07-01.47.58:956][429]LogBlueprintUserMessages: [BP_HealthComponent] 83.16679
+[2025.02.07-01.47.58:966][430]LogBlueprintUserMessages: [BP_HealthComponent] 83.58346
+[2025.02.07-01.47.58:974][431]LogBlueprintUserMessages: [BP_HealthComponent] 84.00013
+[2025.02.07-01.47.58:981][432]LogBlueprintUserMessages: [BP_HealthComponent] 84.416805
+[2025.02.07-01.47.58:990][433]LogBlueprintUserMessages: [BP_HealthComponent] 84.83348
+[2025.02.07-01.47.58:998][434]LogBlueprintUserMessages: [BP_HealthComponent] 85.25016
+[2025.02.07-01.47.59:006][435]LogBlueprintUserMessages: [BP_HealthComponent] 85.666835
+[2025.02.07-01.47.59:014][436]LogBlueprintUserMessages: [BP_HealthComponent] 86.083505
+[2025.02.07-01.47.59:023][437]LogBlueprintUserMessages: [BP_HealthComponent] 86.50018
+[2025.02.07-01.47.59:031][438]LogBlueprintUserMessages: [BP_HealthComponent] 86.916855
+[2025.02.07-01.47.59:041][439]LogBlueprintUserMessages: [BP_HealthComponent] 87.333525
+[2025.02.07-01.47.59:048][440]LogBlueprintUserMessages: [BP_HealthComponent] 87.7502
+[2025.02.07-01.47.59:056][441]LogBlueprintUserMessages: [BP_HealthComponent] 88.166875
+[2025.02.07-01.47.59:065][442]LogBlueprintUserMessages: [BP_HealthComponent] 88.58355
+[2025.02.07-01.47.59:073][443]LogBlueprintUserMessages: [BP_HealthComponent] 89.000225
+[2025.02.07-01.47.59:082][444]LogBlueprintUserMessages: [BP_HealthComponent] 89.4169
+[2025.02.07-01.47.59:090][445]LogBlueprintUserMessages: [BP_HealthComponent] 89.833575
+[2025.02.07-01.47.59:098][446]LogBlueprintUserMessages: [BP_HealthComponent] 90.25025
+[2025.02.07-01.47.59:106][447]LogBlueprintUserMessages: [BP_HealthComponent] 90.66692
+[2025.02.07-01.47.59:115][448]LogBlueprintUserMessages: [BP_HealthComponent] 91.08359
+[2025.02.07-01.47.59:124][449]LogBlueprintUserMessages: [BP_HealthComponent] 91.50026
+[2025.02.07-01.47.59:132][450]LogBlueprintUserMessages: [BP_HealthComponent] 91.916935
+[2025.02.07-01.47.59:140][451]LogBlueprintUserMessages: [BP_HealthComponent] 92.33361
+[2025.02.07-01.47.59:149][452]LogBlueprintUserMessages: [BP_HealthComponent] 92.75029
+[2025.02.07-01.47.59:157][453]LogBlueprintUserMessages: [BP_HealthComponent] 93.16696
+[2025.02.07-01.47.59:165][454]LogBlueprintUserMessages: [BP_HealthComponent] 93.583635
+[2025.02.07-01.47.59:173][455]LogBlueprintUserMessages: [BP_HealthComponent] 94.000305
+[2025.02.07-01.47.59:182][456]LogBlueprintUserMessages: [BP_HealthComponent] 94.41698
+[2025.02.07-01.47.59:189][457]LogBlueprintUserMessages: [BP_HealthComponent] 94.83365
+[2025.02.07-01.47.59:198][458]LogBlueprintUserMessages: [BP_HealthComponent] 95.250325
+[2025.02.07-01.47.59:207][459]LogBlueprintUserMessages: [BP_HealthComponent] 95.666995
+[2025.02.07-01.47.59:215][460]LogBlueprintUserMessages: [BP_HealthComponent] 96.08367
+[2025.02.07-01.47.59:223][461]LogBlueprintUserMessages: [BP_HealthComponent] 96.50034
+[2025.02.07-01.47.59:231][462]LogBlueprintUserMessages: [BP_HealthComponent] 96.917015
+[2025.02.07-01.47.59:240][463]LogBlueprintUserMessages: [BP_HealthComponent] 97.333685
+[2025.02.07-01.47.59:248][464]LogBlueprintUserMessages: [BP_HealthComponent] 97.75036
+[2025.02.07-01.47.59:256][465]LogBlueprintUserMessages: [BP_HealthComponent] 98.16704
+[2025.02.07-01.47.59:265][466]LogBlueprintUserMessages: [BP_HealthComponent] 98.583715
+[2025.02.07-01.47.59:274][467]LogBlueprintUserMessages: [BP_HealthComponent] 99.00039
+[2025.02.07-01.47.59:282][468]LogBlueprintUserMessages: [BP_HealthComponent] 99.417065
+[2025.02.07-01.47.59:290][469]LogBlueprintUserMessages: [BP_HealthComponent] 99.83374
+[2025.02.07-01.47.59:298][470]LogBlueprintUserMessages: [BP_HealthComponent] 100.0
+[2025.02.07-01.48.04:817][128]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.02.07-01.48.04:817][128]LogWorld: BeginTearingDown for /Game/Characters/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2025.02.07-01.48.04:817][128]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2025.02.07-01.48.04:818][128]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.07-01.48.04:818][128]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Characters/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap
+[2025.02.07-01.48.04:818][128]LogContentBundle: [FirstPersonMap(Standalone)] Deleting container.
+[2025.02.07-01.48.04:818][128]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2025.02.07-01.48.04:818][128]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2025.02.07-01.48.04:822][128]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.02.07-01.48.04:826][128]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.07-01.48.04:838][128]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.02.07-01.48.04:839][128]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 11
+[2025.02.07-01.48.04:839][128]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2025.02.07-01.48.04:840][128]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2025.02.07-01.48.04:843][128]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.02.07-01.48.04:846][128]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2025.02.07-01.48.04:891][129]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2025.02.07-01.48.09:668][664]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/Characters/ThirdPersonCharacter/Animations/Riffle/Locomotion/Rifle_Walk.Rifle_Walk
+[2025.02.07-01.48.09:690][664]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_15:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.02.07-01.48.09:707][664]LogUObjectGlobals: Warning: Failed to find object 'Class /Script/ApexDestruction.DestructibleMesh'
+[2025.02.07-01.48.17:787][547]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.02.07-01.48.17:795][547]LogContentBundle: [FirstPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2025.02.07-01.48.17:795][547]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' started...
+[2025.02.07-01.48.17:797][547]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' took 1.983 ms (total: 20.626 ms)
+[2025.02.07-01.48.17:798][547]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.02.07-01.48.17:798][547]LogPlayLevel: Creating play world package: /Game/Characters/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2025.02.07-01.48.17:801][547]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003542s)
+[2025.02.07-01.48.17:801][547]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Characters/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/Characters/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.003564s)
+[2025.02.07-01.48.17:817][547]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2025.02.07-01.48.17:821][547]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2025.02.07-01.48.17:822][547]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.02.07-01.48.17:822][547]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.02.07-01.48.17:822][547]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Characters/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.02.07-01.48.17:822][547]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.02.07-01.48.17:823][547]LogContentBundle: [FirstPersonMap(Standalone)] Creating new container.
+[2025.02.07-01.48.17:823][547]LogWorldPartition: Display: WorldPartition initialize took 1.520 ms (total: 311.688 ms)
+[2025.02.07-01.48.17:823][547]LogPlayLevel: PIE: World Init took: (0.002376s)
+[2025.02.07-01.48.17:830][547]LogAudio: Display: Creating Audio Device:                 Id: 12, Scope: Unique, Realtime: True
+[2025.02.07-01.48.17:830][547]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.02.07-01.48.17:830][547]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.02.07-01.48.17:830][547]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.02.07-01.48.17:830][547]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.02.07-01.48.17:830][547]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2025.02.07-01.48.17:830][547]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.02.07-01.48.17:830][547]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2025.02.07-01.48.17:830][547]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.02.07-01.48.17:830][547]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.02.07-01.48.17:830][547]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.02.07-01.48.17:830][547]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.02.07-01.48.17:832][547]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.02.07-01.48.17:854][547]LogAudioMixer: Display: Using Audio Hardware Device Динамики (MR720)
+[2025.02.07-01.48.17:854][547]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.02.07-01.48.17:854][547]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.02.07-01.48.17:854][547]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.02.07-01.48.17:854][547]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=12
+[2025.02.07-01.48.17:854][547]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=12
+[2025.02.07-01.48.17:856][547]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=12
+[2025.02.07-01.48.17:856][547]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=12
+[2025.02.07-01.48.17:856][547]LogInit: FAudioDevice initialized with ID 12.
+[2025.02.07-01.48.17:856][547]LogAudio: Display: Audio Device (ID: 12) registered with world 'FirstPersonMap'.
+[2025.02.07-01.48.17:856][547]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 12
+[2025.02.07-01.48.17:856][547]LogUIActionRouter: Display: Found 0 derived classes when attemping to create action router (CommonUIActionRouterBase)
+[2025.02.07-01.48.17:856][547]LogUIActionRouter: Error: Using CommonUI without a CommonGameViewportClient derived game viewport client. CommonUI Input routing will not function correctly.
+To disable this warning set CommonUI.Debug.CheckGameViewportClientValid=0 under [SystemSettings] in your project's DefaultEngine.ini.
+[2025.02.07-01.48.17:857][547]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2025.02.07-01.48.17:861][547]LogWorld: Bringing World /Game/Characters/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2025.02.07-06.48.17
+[2025.02.07-01.48.17:861][547]LogWorld: Bringing up level for play took: 0.002304
+[2025.02.07-01.48.17:862][547]LogOnline: OSS: Created online subsystem instance for: :Context_31
+[2025.02.07-01.48.17:863][547]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2025.02.07-01.48.17:863][547]LogScript: Warning: Script Msg called by: ABP_Maya_C /Game/Characters/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap:PersistentLevel.BP_Maya_C_0.CharacterMesh0.ABP_Maya_C_0
+[2025.02.07-01.48.17:874][547]PIE: Server logged in
+[2025.02.07-01.48.17:874][547]PIE: Play in editor total start time 0,081 seconds.
+[2025.02.07-01.48.18:612][628]LogBlueprintUserMessages: [BP_HealthComponent] 99.8
+[2025.02.07-01.48.18:620][629]LogBlueprintUserMessages: [BP_HealthComponent] 99.6
+[2025.02.07-01.48.18:629][630]LogBlueprintUserMessages: [BP_HealthComponent] 99.4
+[2025.02.07-01.48.18:637][631]LogBlueprintUserMessages: [BP_HealthComponent] 99.2
+[2025.02.07-01.48.18:645][632]LogBlueprintUserMessages: [BP_HealthComponent] 99.0
+[2025.02.07-01.48.18:653][633]LogBlueprintUserMessages: [BP_HealthComponent] 98.8
+[2025.02.07-01.48.18:662][634]LogBlueprintUserMessages: [BP_HealthComponent] 98.6
+[2025.02.07-01.48.18:670][635]LogBlueprintUserMessages: [BP_HealthComponent] 98.4
+[2025.02.07-01.48.18:679][636]LogBlueprintUserMessages: [BP_HealthComponent] 98.2
+[2025.02.07-01.48.18:686][637]LogBlueprintUserMessages: [BP_HealthComponent] 98.0
+[2025.02.07-01.48.18:695][638]LogBlueprintUserMessages: [BP_HealthComponent] 97.8
+[2025.02.07-01.48.18:704][639]LogBlueprintUserMessages: [BP_HealthComponent] 97.6
+[2025.02.07-01.48.18:711][640]LogBlueprintUserMessages: [BP_HealthComponent] 97.4
+[2025.02.07-01.48.18:720][641]LogBlueprintUserMessages: [BP_HealthComponent] 97.2
+[2025.02.07-01.48.18:728][642]LogBlueprintUserMessages: [BP_HealthComponent] 97.0
+[2025.02.07-01.48.18:736][643]LogBlueprintUserMessages: [BP_HealthComponent] 96.8
+[2025.02.07-01.48.18:745][644]LogBlueprintUserMessages: [BP_HealthComponent] 96.6
+[2025.02.07-01.48.18:753][645]LogBlueprintUserMessages: [BP_HealthComponent] 96.4
+[2025.02.07-01.48.18:762][646]LogBlueprintUserMessages: [BP_HealthComponent] 96.2
+[2025.02.07-01.48.18:770][647]LogBlueprintUserMessages: [BP_HealthComponent] 96.0
+[2025.02.07-01.48.18:778][648]LogBlueprintUserMessages: [BP_HealthComponent] 95.8
+[2025.02.07-01.48.18:787][649]LogBlueprintUserMessages: [BP_HealthComponent] 95.6
+[2025.02.07-01.48.18:795][650]LogBlueprintUserMessages: [BP_HealthComponent] 95.4
+[2025.02.07-01.48.18:804][651]LogBlueprintUserMessages: [BP_HealthComponent] 95.2
+[2025.02.07-01.48.18:812][652]LogBlueprintUserMessages: [BP_HealthComponent] 95.0
+[2025.02.07-01.48.18:821][653]LogBlueprintUserMessages: [BP_HealthComponent] 94.8
+[2025.02.07-01.48.18:829][654]LogBlueprintUserMessages: [BP_HealthComponent] 94.6
+[2025.02.07-01.48.18:836][655]LogBlueprintUserMessages: [BP_HealthComponent] 94.4
+[2025.02.07-01.48.18:845][656]LogBlueprintUserMessages: [BP_HealthComponent] 94.2
+[2025.02.07-01.48.18:853][657]LogBlueprintUserMessages: [BP_HealthComponent] 94.0
+[2025.02.07-01.48.18:862][658]LogBlueprintUserMessages: [BP_HealthComponent] 93.8
+[2025.02.07-01.48.18:870][659]LogBlueprintUserMessages: [BP_HealthComponent] 93.6
+[2025.02.07-01.48.18:879][660]LogBlueprintUserMessages: [BP_HealthComponent] 93.4
+[2025.02.07-01.48.18:886][661]LogBlueprintUserMessages: [BP_HealthComponent] 93.2
+[2025.02.07-01.48.18:895][662]LogBlueprintUserMessages: [BP_HealthComponent] 93.0
+[2025.02.07-01.48.18:904][663]LogBlueprintUserMessages: [BP_HealthComponent] 92.8
+[2025.02.07-01.48.18:912][664]LogBlueprintUserMessages: [BP_HealthComponent] 92.6
+[2025.02.07-01.48.18:920][665]LogBlueprintUserMessages: [BP_HealthComponent] 92.4
+[2025.02.07-01.48.18:929][666]LogBlueprintUserMessages: [BP_HealthComponent] 92.2
+[2025.02.07-01.48.18:936][667]LogBlueprintUserMessages: [BP_HealthComponent] 92.0
+[2025.02.07-01.48.18:945][668]LogBlueprintUserMessages: [BP_HealthComponent] 91.8
+[2025.02.07-01.48.18:954][669]LogBlueprintUserMessages: [BP_HealthComponent] 91.6
+[2025.02.07-01.48.18:961][670]LogBlueprintUserMessages: [BP_HealthComponent] 91.4
+[2025.02.07-01.48.18:970][671]LogBlueprintUserMessages: [BP_HealthComponent] 91.2
+[2025.02.07-01.48.18:978][672]LogBlueprintUserMessages: [BP_HealthComponent] 91.0
+[2025.02.07-01.48.18:986][673]LogBlueprintUserMessages: [BP_HealthComponent] 90.8
+[2025.02.07-01.48.18:995][674]LogBlueprintUserMessages: [BP_HealthComponent] 90.6
+[2025.02.07-01.48.19:004][675]LogBlueprintUserMessages: [BP_HealthComponent] 90.4
+[2025.02.07-01.48.19:011][676]LogBlueprintUserMessages: [BP_HealthComponent] 90.2
+[2025.02.07-01.48.19:021][677]LogBlueprintUserMessages: [BP_HealthComponent] 90.0
+[2025.02.07-01.48.19:028][678]LogBlueprintUserMessages: [BP_HealthComponent] 89.8
+[2025.02.07-01.48.19:036][679]LogBlueprintUserMessages: [BP_HealthComponent] 89.6
+[2025.02.07-01.48.19:045][680]LogBlueprintUserMessages: [BP_HealthComponent] 89.4
+[2025.02.07-01.48.19:054][681]LogBlueprintUserMessages: [BP_HealthComponent] 89.2
+[2025.02.07-01.48.19:062][682]LogBlueprintUserMessages: [BP_HealthComponent] 89.0
+[2025.02.07-01.48.19:070][683]LogBlueprintUserMessages: [BP_HealthComponent] 88.8
+[2025.02.07-01.48.19:078][684]LogBlueprintUserMessages: [BP_HealthComponent] 88.6
+[2025.02.07-01.48.19:086][685]LogBlueprintUserMessages: [BP_HealthComponent] 88.4
+[2025.02.07-01.48.19:095][686]LogBlueprintUserMessages: [BP_HealthComponent] 88.2
+[2025.02.07-01.48.19:103][687]LogBlueprintUserMessages: [BP_HealthComponent] 88.0
+[2025.02.07-01.48.19:112][688]LogBlueprintUserMessages: [BP_HealthComponent] 87.8
+[2025.02.07-01.48.19:120][689]LogBlueprintUserMessages: [BP_HealthComponent] 87.6
+[2025.02.07-01.48.19:128][690]LogBlueprintUserMessages: [BP_HealthComponent] 87.4
+[2025.02.07-01.48.19:136][691]LogBlueprintUserMessages: [BP_HealthComponent] 87.2
+[2025.02.07-01.48.19:145][692]LogBlueprintUserMessages: [BP_HealthComponent] 87.0
+[2025.02.07-01.48.19:153][693]LogBlueprintUserMessages: [BP_HealthComponent] 86.8
+[2025.02.07-01.48.19:161][694]LogBlueprintUserMessages: [BP_HealthComponent] 86.6
+[2025.02.07-01.48.19:170][695]LogBlueprintUserMessages: [BP_HealthComponent] 86.4
+[2025.02.07-01.48.19:179][696]LogBlueprintUserMessages: [BP_HealthComponent] 86.2
+[2025.02.07-01.48.19:188][697]LogBlueprintUserMessages: [BP_HealthComponent] 86.0
+[2025.02.07-01.48.19:195][698]LogBlueprintUserMessages: [BP_HealthComponent] 85.8
+[2025.02.07-01.48.19:204][699]LogBlueprintUserMessages: [BP_HealthComponent] 85.6
+[2025.02.07-01.48.19:212][700]LogBlueprintUserMessages: [BP_HealthComponent] 85.4
+[2025.02.07-01.48.19:221][701]LogBlueprintUserMessages: [BP_HealthComponent] 85.2
+[2025.02.07-01.48.19:229][702]LogBlueprintUserMessages: [BP_HealthComponent] 85.0
+[2025.02.07-01.48.19:237][703]LogBlueprintUserMessages: [BP_HealthComponent] 84.8
+[2025.02.07-01.48.19:245][704]LogBlueprintUserMessages: [BP_HealthComponent] 84.6
+[2025.02.07-01.48.19:253][705]LogBlueprintUserMessages: [BP_HealthComponent] 84.4
+[2025.02.07-01.48.19:263][706]LogBlueprintUserMessages: [BP_HealthComponent] 84.2
+[2025.02.07-01.48.19:271][707]LogBlueprintUserMessages: [BP_HealthComponent] 84.0
+[2025.02.07-01.48.19:278][708]LogBlueprintUserMessages: [BP_HealthComponent] 83.8
+[2025.02.07-01.48.19:287][709]LogBlueprintUserMessages: [BP_HealthComponent] 83.6
+[2025.02.07-01.48.19:295][710]LogBlueprintUserMessages: [BP_HealthComponent] 83.4
+[2025.02.07-01.48.19:303][711]LogBlueprintUserMessages: [BP_HealthComponent] 83.2
+[2025.02.07-01.48.19:313][712]LogBlueprintUserMessages: [BP_HealthComponent] 83.0
+[2025.02.07-01.48.19:321][713]LogBlueprintUserMessages: [BP_HealthComponent] 82.8
+[2025.02.07-01.48.19:329][714]LogBlueprintUserMessages: [BP_HealthComponent] 82.6
+[2025.02.07-01.48.19:337][715]LogBlueprintUserMessages: [BP_HealthComponent] 82.4
+[2025.02.07-01.48.19:345][716]LogBlueprintUserMessages: [BP_HealthComponent] 82.2
+[2025.02.07-01.48.19:353][717]LogBlueprintUserMessages: [BP_HealthComponent] 82.0
+[2025.02.07-01.48.19:362][718]LogBlueprintUserMessages: [BP_HealthComponent] 81.8
+[2025.02.07-01.48.19:371][719]LogBlueprintUserMessages: [BP_HealthComponent] 81.6
+[2025.02.07-01.48.19:379][720]LogBlueprintUserMessages: [BP_HealthComponent] 81.4
+[2025.02.07-01.48.19:387][721]LogBlueprintUserMessages: [BP_HealthComponent] 81.2
+[2025.02.07-01.48.19:395][722]LogBlueprintUserMessages: [BP_HealthComponent] 81.0
+[2025.02.07-01.48.19:403][723]LogBlueprintUserMessages: [BP_HealthComponent] 80.8
+[2025.02.07-01.48.19:412][724]LogBlueprintUserMessages: [BP_HealthComponent] 80.6
+[2025.02.07-01.48.19:421][725]LogBlueprintUserMessages: [BP_HealthComponent] 80.4
+[2025.02.07-01.48.19:428][726]LogBlueprintUserMessages: [BP_HealthComponent] 80.2
+[2025.02.07-01.48.19:437][727]LogBlueprintUserMessages: [BP_HealthComponent] 80.0
+[2025.02.07-01.48.19:445][728]LogBlueprintUserMessages: [BP_HealthComponent] 79.8
+[2025.02.07-01.48.19:454][729]LogBlueprintUserMessages: [BP_HealthComponent] 79.6
+[2025.02.07-01.48.19:462][730]LogBlueprintUserMessages: [BP_HealthComponent] 79.4
+[2025.02.07-01.48.19:470][731]LogBlueprintUserMessages: [BP_HealthComponent] 79.2
+[2025.02.07-01.48.19:479][732]LogBlueprintUserMessages: [BP_HealthComponent] 79.0
+[2025.02.07-01.48.19:487][733]LogBlueprintUserMessages: [BP_HealthComponent] 78.8
+[2025.02.07-01.48.19:495][734]LogBlueprintUserMessages: [BP_HealthComponent] 78.6
+[2025.02.07-01.48.19:504][735]LogBlueprintUserMessages: [BP_HealthComponent] 78.4
+[2025.02.07-01.48.19:511][736]LogBlueprintUserMessages: [BP_HealthComponent] 78.2
+[2025.02.07-01.48.19:520][737]LogBlueprintUserMessages: [BP_HealthComponent] 78.0
+[2025.02.07-01.48.19:529][738]LogBlueprintUserMessages: [BP_HealthComponent] 77.8
+[2025.02.07-01.48.19:536][739]LogBlueprintUserMessages: [BP_HealthComponent] 77.6
+[2025.02.07-01.48.19:545][740]LogBlueprintUserMessages: [BP_HealthComponent] 77.4
+[2025.02.07-01.48.19:553][741]LogBlueprintUserMessages: [BP_HealthComponent] 77.2
+[2025.02.07-01.48.19:561][742]LogBlueprintUserMessages: [BP_HealthComponent] 77.0
+[2025.02.07-01.48.19:570][743]LogBlueprintUserMessages: [BP_HealthComponent] 76.8
+[2025.02.07-01.48.19:578][744]LogBlueprintUserMessages: [BP_HealthComponent] 76.6
+[2025.02.07-01.48.19:587][745]LogBlueprintUserMessages: [BP_HealthComponent] 76.4
+[2025.02.07-01.48.19:595][746]LogBlueprintUserMessages: [BP_HealthComponent] 76.2
+[2025.02.07-01.48.19:604][747]LogBlueprintUserMessages: [BP_HealthComponent] 76.0
+[2025.02.07-01.48.19:611][748]LogBlueprintUserMessages: [BP_HealthComponent] 75.8
+[2025.02.07-01.48.19:621][749]LogBlueprintUserMessages: [BP_HealthComponent] 75.6
+[2025.02.07-01.48.19:629][750]LogBlueprintUserMessages: [BP_HealthComponent] 75.4
+[2025.02.07-01.48.19:637][751]LogBlueprintUserMessages: [BP_HealthComponent] 75.2
+[2025.02.07-01.48.19:645][752]LogBlueprintUserMessages: [BP_HealthComponent] 75.0
+[2025.02.07-01.48.19:654][753]LogBlueprintUserMessages: [BP_HealthComponent] 74.8
+[2025.02.07-01.48.19:662][754]LogBlueprintUserMessages: [BP_HealthComponent] 74.6
+[2025.02.07-01.48.19:669][755]LogBlueprintUserMessages: [BP_HealthComponent] 74.4
+[2025.02.07-01.48.19:678][756]LogBlueprintUserMessages: [BP_HealthComponent] 74.2
+[2025.02.07-01.48.19:687][757]LogBlueprintUserMessages: [BP_HealthComponent] 74.0
+[2025.02.07-01.48.19:695][758]LogBlueprintUserMessages: [BP_HealthComponent] 73.8
+[2025.02.07-01.48.19:703][759]LogBlueprintUserMessages: [BP_HealthComponent] 73.6
+[2025.02.07-01.48.19:711][760]LogBlueprintUserMessages: [BP_HealthComponent] 73.4
+[2025.02.07-01.48.19:720][761]LogBlueprintUserMessages: [BP_HealthComponent] 73.2
+[2025.02.07-01.48.19:729][762]LogBlueprintUserMessages: [BP_HealthComponent] 73.0
+[2025.02.07-01.48.19:736][763]LogBlueprintUserMessages: [BP_HealthComponent] 72.8
+[2025.02.07-01.48.19:745][764]LogBlueprintUserMessages: [BP_HealthComponent] 72.6
+[2025.02.07-01.48.19:754][765]LogBlueprintUserMessages: [BP_HealthComponent] 72.4
+[2025.02.07-01.48.19:762][766]LogBlueprintUserMessages: [BP_HealthComponent] 72.2
+[2025.02.07-01.48.19:770][767]LogBlueprintUserMessages: [BP_HealthComponent] 72.0
+[2025.02.07-01.48.19:778][768]LogBlueprintUserMessages: [BP_HealthComponent] 71.8
+[2025.02.07-01.48.19:787][769]LogBlueprintUserMessages: [BP_HealthComponent] 71.6
+[2025.02.07-01.48.19:795][770]LogBlueprintUserMessages: [BP_HealthComponent] 71.4
+[2025.02.07-01.48.19:803][771]LogBlueprintUserMessages: [BP_HealthComponent] 71.2
+[2025.02.07-01.48.19:812][772]LogBlueprintUserMessages: [BP_HealthComponent] 71.616675
+[2025.02.07-01.48.19:821][773]LogBlueprintUserMessages: [BP_HealthComponent] 72.03335
+[2025.02.07-01.48.19:829][774]LogBlueprintUserMessages: [BP_HealthComponent] 72.450025
+[2025.02.07-01.48.19:837][775]LogBlueprintUserMessages: [BP_HealthComponent] 72.866695
+[2025.02.07-01.48.19:845][776]LogBlueprintUserMessages: [BP_HealthComponent] 73.28337
+[2025.02.07-01.48.19:854][777]LogBlueprintUserMessages: [BP_HealthComponent] 73.700045
+[2025.02.07-01.48.19:861][778]LogBlueprintUserMessages: [BP_HealthComponent] 74.116715
+[2025.02.07-01.48.19:871][779]LogBlueprintUserMessages: [BP_HealthComponent] 74.53339
+[2025.02.07-01.48.19:878][780]LogBlueprintUserMessages: [BP_HealthComponent] 74.950065
+[2025.02.07-01.48.19:886][781]LogBlueprintUserMessages: [BP_HealthComponent] 75.366735
+[2025.02.07-01.48.19:895][782]LogBlueprintUserMessages: [BP_HealthComponent] 75.78341
+[2025.02.07-01.48.19:904][783]LogBlueprintUserMessages: [BP_HealthComponent] 76.20008
+[2025.02.07-01.48.19:911][784]LogBlueprintUserMessages: [BP_HealthComponent] 76.616755
+[2025.02.07-01.48.19:920][785]LogBlueprintUserMessages: [BP_HealthComponent] 77.03343
+[2025.02.07-01.48.19:928][786]LogBlueprintUserMessages: [BP_HealthComponent] 77.4501
+[2025.02.07-01.48.19:937][787]LogBlueprintUserMessages: [BP_HealthComponent] 77.86677
+[2025.02.07-01.48.19:945][788]LogBlueprintUserMessages: [BP_HealthComponent] 78.28344
+[2025.02.07-01.48.19:954][789]LogBlueprintUserMessages: [BP_HealthComponent] 78.70011
+[2025.02.07-01.48.19:962][790]LogBlueprintUserMessages: [BP_HealthComponent] 79.11678
+[2025.02.07-01.48.19:970][791]LogBlueprintUserMessages: [BP_HealthComponent] 79.53346
+[2025.02.07-01.48.19:978][792]LogBlueprintUserMessages: [BP_HealthComponent] 79.95014
+[2025.02.07-01.48.19:986][793]LogBlueprintUserMessages: [BP_HealthComponent] 80.36681
+[2025.02.07-01.48.19:995][794]LogBlueprintUserMessages: [BP_HealthComponent] 80.783485
+[2025.02.07-01.48.20:003][795]LogBlueprintUserMessages: [BP_HealthComponent] 81.20016
+[2025.02.07-01.48.20:012][796]LogBlueprintUserMessages: [BP_HealthComponent] 81.616835
+[2025.02.07-01.48.20:020][797]LogBlueprintUserMessages: [BP_HealthComponent] 82.033505
+[2025.02.07-01.48.20:028][798]LogBlueprintUserMessages: [BP_HealthComponent] 82.45018
+[2025.02.07-01.48.20:037][799]LogBlueprintUserMessages: [BP_HealthComponent] 82.866855
+[2025.02.07-01.48.20:045][800]LogBlueprintUserMessages: [BP_HealthComponent] 83.28353
+[2025.02.07-01.48.20:054][801]LogBlueprintUserMessages: [BP_HealthComponent] 83.7002
+[2025.02.07-01.48.20:062][802]LogBlueprintUserMessages: [BP_HealthComponent] 84.11687
+[2025.02.07-01.48.20:070][803]LogBlueprintUserMessages: [BP_HealthComponent] 84.53354
+[2025.02.07-01.48.20:078][804]LogBlueprintUserMessages: [BP_HealthComponent] 84.950215
+[2025.02.07-01.48.20:087][805]LogBlueprintUserMessages: [BP_HealthComponent] 85.36689
+[2025.02.07-01.48.20:095][806]LogBlueprintUserMessages: [BP_HealthComponent] 85.78356
+[2025.02.07-01.48.20:103][807]LogBlueprintUserMessages: [BP_HealthComponent] 86.200235
+[2025.02.07-01.48.20:112][808]LogBlueprintUserMessages: [BP_HealthComponent] 86.61691
+[2025.02.07-01.48.20:120][809]LogBlueprintUserMessages: [BP_HealthComponent] 87.03358
+[2025.02.07-01.48.20:129][810]LogBlueprintUserMessages: [BP_HealthComponent] 87.45025
+[2025.02.07-01.48.20:136][811]LogBlueprintUserMessages: [BP_HealthComponent] 87.86692
+[2025.02.07-01.48.20:145][812]LogBlueprintUserMessages: [BP_HealthComponent] 88.28359
+[2025.02.07-01.48.20:153][813]LogBlueprintUserMessages: [BP_HealthComponent] 88.700265
+[2025.02.07-01.48.20:162][814]LogBlueprintUserMessages: [BP_HealthComponent] 89.11694
+[2025.02.07-01.48.20:170][815]LogBlueprintUserMessages: [BP_HealthComponent] 89.533615
+[2025.02.07-01.48.20:178][816]LogBlueprintUserMessages: [BP_HealthComponent] 89.95029
+[2025.02.07-01.48.20:187][817]LogBlueprintUserMessages: [BP_HealthComponent] 90.366965
+[2025.02.07-01.48.20:196][818]LogBlueprintUserMessages: [BP_HealthComponent] 90.78364
+[2025.02.07-01.48.20:203][819]LogBlueprintUserMessages: [BP_HealthComponent] 91.200315
+[2025.02.07-01.48.20:212][820]LogBlueprintUserMessages: [BP_HealthComponent] 91.61699
+[2025.02.07-01.48.20:220][821]LogBlueprintUserMessages: [BP_HealthComponent] 92.033665
+[2025.02.07-01.48.20:229][822]LogBlueprintUserMessages: [BP_HealthComponent] 92.45034
+[2025.02.07-01.48.20:237][823]LogBlueprintUserMessages: [BP_HealthComponent] 92.867015
+[2025.02.07-01.48.20:245][824]LogBlueprintUserMessages: [BP_HealthComponent] 93.283685
+[2025.02.07-01.48.20:253][825]LogBlueprintUserMessages: [BP_HealthComponent] 93.700355
+[2025.02.07-01.48.20:262][826]LogBlueprintUserMessages: [BP_HealthComponent] 94.117025
+[2025.02.07-01.48.20:271][827]LogBlueprintUserMessages: [BP_HealthComponent] 94.5337
+[2025.02.07-01.48.20:279][828]LogBlueprintUserMessages: [BP_HealthComponent] 94.950375
+[2025.02.07-01.48.20:287][829]LogBlueprintUserMessages: [BP_HealthComponent] 95.367055
+[2025.02.07-01.48.20:295][830]LogBlueprintUserMessages: [BP_HealthComponent] 95.783725
+[2025.02.07-01.48.20:303][831]LogBlueprintUserMessages: [BP_HealthComponent] 96.200395
+[2025.02.07-01.48.20:312][832]LogBlueprintUserMessages: [BP_HealthComponent] 96.61707
+[2025.02.07-01.48.20:320][833]LogBlueprintUserMessages: [BP_HealthComponent] 97.03374
+[2025.02.07-01.48.20:328][834]LogBlueprintUserMessages: [BP_HealthComponent] 97.450415
+[2025.02.07-01.48.20:337][835]LogBlueprintUserMessages: [BP_HealthComponent] 97.86709
+[2025.02.07-01.48.20:345][836]LogBlueprintUserMessages: [BP_HealthComponent] 98.28376
+[2025.02.07-01.48.20:353][837]LogBlueprintUserMessages: [BP_HealthComponent] 98.70043
+[2025.02.07-01.48.20:362][838]LogBlueprintUserMessages: [BP_HealthComponent] 99.117105
+[2025.02.07-01.48.20:370][839]LogBlueprintUserMessages: [BP_HealthComponent] 99.53378
+[2025.02.07-01.48.20:378][840]LogBlueprintUserMessages: [BP_HealthComponent] 99.950455
+[2025.02.07-01.48.20:387][841]LogBlueprintUserMessages: [BP_HealthComponent] 100.0
+[2025.02.07-01.48.27:281][668]LogBlueprintUserMessages: [BP_HealthComponent] 99.8
+[2025.02.07-01.48.27:289][669]LogBlueprintUserMessages: [BP_HealthComponent] 99.6
+[2025.02.07-01.48.27:298][670]LogBlueprintUserMessages: [BP_HealthComponent] 99.4
+[2025.02.07-01.48.27:305][671]LogBlueprintUserMessages: [BP_HealthComponent] 99.2
+[2025.02.07-01.48.27:314][672]LogBlueprintUserMessages: [BP_HealthComponent] 99.0
+[2025.02.07-01.48.27:323][673]LogBlueprintUserMessages: [BP_HealthComponent] 98.8
+[2025.02.07-01.48.27:331][674]LogBlueprintUserMessages: [BP_HealthComponent] 98.6
+[2025.02.07-01.48.27:340][675]LogBlueprintUserMessages: [BP_HealthComponent] 98.4
+[2025.02.07-01.48.27:348][676]LogBlueprintUserMessages: [BP_HealthComponent] 98.2
+[2025.02.07-01.48.27:355][677]LogBlueprintUserMessages: [BP_HealthComponent] 98.0
+[2025.02.07-01.48.27:364][678]LogBlueprintUserMessages: [BP_HealthComponent] 97.8
+[2025.02.07-01.48.27:373][679]LogBlueprintUserMessages: [BP_HealthComponent] 97.6
+[2025.02.07-01.48.27:381][680]LogBlueprintUserMessages: [BP_HealthComponent] 97.4
+[2025.02.07-01.48.27:389][681]LogBlueprintUserMessages: [BP_HealthComponent] 97.2
+[2025.02.07-01.48.27:397][682]LogBlueprintUserMessages: [BP_HealthComponent] 97.0
+[2025.02.07-01.48.27:406][683]LogBlueprintUserMessages: [BP_HealthComponent] 96.8
+[2025.02.07-01.48.27:414][684]LogBlueprintUserMessages: [BP_HealthComponent] 96.6
+[2025.02.07-01.48.27:422][685]LogBlueprintUserMessages: [BP_HealthComponent] 96.4
+[2025.02.07-01.48.27:430][686]LogBlueprintUserMessages: [BP_HealthComponent] 96.2
+[2025.02.07-01.48.27:439][687]LogBlueprintUserMessages: [BP_HealthComponent] 96.0
+[2025.02.07-01.48.27:447][688]LogBlueprintUserMessages: [BP_HealthComponent] 95.8
+[2025.02.07-01.48.27:455][689]LogBlueprintUserMessages: [BP_HealthComponent] 95.6
+[2025.02.07-01.48.27:464][690]LogBlueprintUserMessages: [BP_HealthComponent] 95.4
+[2025.02.07-01.48.27:472][691]LogBlueprintUserMessages: [BP_HealthComponent] 95.2
+[2025.02.07-01.48.27:480][692]LogBlueprintUserMessages: [BP_HealthComponent] 95.0
+[2025.02.07-01.48.27:488][693]LogBlueprintUserMessages: [BP_HealthComponent] 94.8
+[2025.02.07-01.48.27:497][694]LogBlueprintUserMessages: [BP_HealthComponent] 94.6
+[2025.02.07-01.48.27:505][695]LogBlueprintUserMessages: [BP_HealthComponent] 94.4
+[2025.02.07-01.48.27:513][696]LogBlueprintUserMessages: [BP_HealthComponent] 94.2
+[2025.02.07-01.48.27:522][697]LogBlueprintUserMessages: [BP_HealthComponent] 94.0
+[2025.02.07-01.48.27:530][698]LogBlueprintUserMessages: [BP_HealthComponent] 93.8
+[2025.02.07-01.48.27:538][699]LogBlueprintUserMessages: [BP_HealthComponent] 93.6
+[2025.02.07-01.48.27:547][700]LogBlueprintUserMessages: [BP_HealthComponent] 93.4
+[2025.02.07-01.48.27:555][701]LogBlueprintUserMessages: [BP_HealthComponent] 93.2
+[2025.02.07-01.48.27:564][702]LogBlueprintUserMessages: [BP_HealthComponent] 93.0
+[2025.02.07-01.48.27:572][703]LogBlueprintUserMessages: [BP_HealthComponent] 92.8
+[2025.02.07-01.48.27:580][704]LogBlueprintUserMessages: [BP_HealthComponent] 92.6
+[2025.02.07-01.48.27:589][705]LogBlueprintUserMessages: [BP_HealthComponent] 92.4
+[2025.02.07-01.48.27:596][706]LogBlueprintUserMessages: [BP_HealthComponent] 92.2
+[2025.02.07-01.48.27:605][707]LogBlueprintUserMessages: [BP_HealthComponent] 92.0
+[2025.02.07-01.48.27:614][708]LogBlueprintUserMessages: [BP_HealthComponent] 91.8
+[2025.02.07-01.48.27:622][709]LogBlueprintUserMessages: [BP_HealthComponent] 91.6
+[2025.02.07-01.48.27:631][710]LogBlueprintUserMessages: [BP_HealthComponent] 91.4
+[2025.02.07-01.48.27:639][711]LogBlueprintUserMessages: [BP_HealthComponent] 91.2
+[2025.02.07-01.48.27:647][712]LogBlueprintUserMessages: [BP_HealthComponent] 91.0
+[2025.02.07-01.48.27:655][713]LogBlueprintUserMessages: [BP_HealthComponent] 90.8
+[2025.02.07-01.48.27:664][714]LogBlueprintUserMessages: [BP_HealthComponent] 90.6
+[2025.02.07-01.48.27:672][715]LogBlueprintUserMessages: [BP_HealthComponent] 90.4
+[2025.02.07-01.48.27:680][716]LogBlueprintUserMessages: [BP_HealthComponent] 90.2
+[2025.02.07-01.48.27:688][717]LogBlueprintUserMessages: [BP_HealthComponent] 90.0
+[2025.02.07-01.48.27:698][718]LogBlueprintUserMessages: [BP_HealthComponent] 89.8
+[2025.02.07-01.48.27:705][719]LogBlueprintUserMessages: [BP_HealthComponent] 89.6
+[2025.02.07-01.48.27:714][720]LogBlueprintUserMessages: [BP_HealthComponent] 89.4
+[2025.02.07-01.48.27:723][721]LogBlueprintUserMessages: [BP_HealthComponent] 89.2
+[2025.02.07-01.48.27:731][722]LogBlueprintUserMessages: [BP_HealthComponent] 89.0
+[2025.02.07-01.48.27:738][723]LogBlueprintUserMessages: [BP_HealthComponent] 88.8
+[2025.02.07-01.48.27:747][724]LogBlueprintUserMessages: [BP_HealthComponent] 88.6
+[2025.02.07-01.48.27:755][725]LogBlueprintUserMessages: [BP_HealthComponent] 88.4
+[2025.02.07-01.48.27:764][726]LogBlueprintUserMessages: [BP_HealthComponent] 88.2
+[2025.02.07-01.48.27:772][727]LogBlueprintUserMessages: [BP_HealthComponent] 88.0
+[2025.02.07-01.48.27:780][728]LogBlueprintUserMessages: [BP_HealthComponent] 87.8
+[2025.02.07-01.48.27:788][729]LogBlueprintUserMessages: [BP_HealthComponent] 87.6
+[2025.02.07-01.48.27:797][730]LogBlueprintUserMessages: [BP_HealthComponent] 87.4
+[2025.02.07-01.48.27:805][731]LogBlueprintUserMessages: [BP_HealthComponent] 87.2
+[2025.02.07-01.48.27:814][732]LogBlueprintUserMessages: [BP_HealthComponent] 87.0
+[2025.02.07-01.48.27:822][733]LogBlueprintUserMessages: [BP_HealthComponent] 86.8
+[2025.02.07-01.48.27:830][734]LogBlueprintUserMessages: [BP_HealthComponent] 86.6
+[2025.02.07-01.48.27:838][735]LogBlueprintUserMessages: [BP_HealthComponent] 86.4
+[2025.02.07-01.48.27:847][736]LogBlueprintUserMessages: [BP_HealthComponent] 86.2
+[2025.02.07-01.48.27:855][737]LogBlueprintUserMessages: [BP_HealthComponent] 86.0
+[2025.02.07-01.48.27:864][738]LogBlueprintUserMessages: [BP_HealthComponent] 85.8
+[2025.02.07-01.48.27:872][739]LogBlueprintUserMessages: [BP_HealthComponent] 85.6
+[2025.02.07-01.48.27:881][740]LogBlueprintUserMessages: [BP_HealthComponent] 85.4
+[2025.02.07-01.48.27:889][741]LogBlueprintUserMessages: [BP_HealthComponent] 85.2
+[2025.02.07-01.48.27:898][742]LogBlueprintUserMessages: [BP_HealthComponent] 85.0
+[2025.02.07-01.48.27:906][743]LogBlueprintUserMessages: [BP_HealthComponent] 84.8
+[2025.02.07-01.48.27:914][744]LogBlueprintUserMessages: [BP_HealthComponent] 84.6
+[2025.02.07-01.48.27:923][745]LogBlueprintUserMessages: [BP_HealthComponent] 84.4
+[2025.02.07-01.48.27:931][746]LogBlueprintUserMessages: [BP_HealthComponent] 84.2
+[2025.02.07-01.48.27:939][747]LogBlueprintUserMessages: [BP_HealthComponent] 84.0
+[2025.02.07-01.48.27:947][748]LogBlueprintUserMessages: [BP_HealthComponent] 83.8
+[2025.02.07-01.48.27:956][749]LogBlueprintUserMessages: [BP_HealthComponent] 83.6
+[2025.02.07-01.48.27:964][750]LogBlueprintUserMessages: [BP_HealthComponent] 83.4
+[2025.02.07-01.48.27:973][751]LogBlueprintUserMessages: [BP_HealthComponent] 83.2
+[2025.02.07-01.48.27:981][752]LogBlueprintUserMessages: [BP_HealthComponent] 83.0
+[2025.02.07-01.48.27:989][753]LogBlueprintUserMessages: [BP_HealthComponent] 82.8
+[2025.02.07-01.48.27:998][754]LogBlueprintUserMessages: [BP_HealthComponent] 82.6
+[2025.02.07-01.48.28:005][755]LogBlueprintUserMessages: [BP_HealthComponent] 82.4
+[2025.02.07-01.48.28:014][756]LogBlueprintUserMessages: [BP_HealthComponent] 82.2
+[2025.02.07-01.48.28:023][757]LogBlueprintUserMessages: [BP_HealthComponent] 82.0
+[2025.02.07-01.48.28:030][758]LogBlueprintUserMessages: [BP_HealthComponent] 81.8
+[2025.02.07-01.48.28:039][759]LogBlueprintUserMessages: [BP_HealthComponent] 81.6
+[2025.02.07-01.48.28:047][760]LogBlueprintUserMessages: [BP_HealthComponent] 81.4
+[2025.02.07-01.48.28:056][761]LogBlueprintUserMessages: [BP_HealthComponent] 81.2
+[2025.02.07-01.48.28:064][762]LogBlueprintUserMessages: [BP_HealthComponent] 81.0
+[2025.02.07-01.48.28:073][763]LogBlueprintUserMessages: [BP_HealthComponent] 80.8
+[2025.02.07-01.48.28:080][764]LogBlueprintUserMessages: [BP_HealthComponent] 80.6
+[2025.02.07-01.48.28:101][765]LogUIActionRouter: Cleaned out [0] inactive UI action bindings
+[2025.02.07-01.48.28:101][765]LogBlueprintUserMessages: [BP_HealthComponent] 80.4
+[2025.02.07-01.48.28:107][766]LogBlueprintUserMessages: [BP_HealthComponent] 80.2
+[2025.02.07-01.48.28:116][767]LogBlueprintUserMessages: [BP_HealthComponent] 80.0
+[2025.02.07-01.48.28:124][768]LogBlueprintUserMessages: [BP_HealthComponent] 79.8
+[2025.02.07-01.48.28:134][769]LogBlueprintUserMessages: [BP_HealthComponent] 79.6
+[2025.02.07-01.48.28:140][770]LogBlueprintUserMessages: [BP_HealthComponent] 79.4
+[2025.02.07-01.48.28:149][771]LogBlueprintUserMessages: [BP_HealthComponent] 79.2
+[2025.02.07-01.48.28:157][772]LogBlueprintUserMessages: [BP_HealthComponent] 79.0
+[2025.02.07-01.48.28:166][773]LogBlueprintUserMessages: [BP_HealthComponent] 78.8
+[2025.02.07-01.48.28:175][774]LogBlueprintUserMessages: [BP_HealthComponent] 78.6
+[2025.02.07-01.48.28:183][775]LogBlueprintUserMessages: [BP_HealthComponent] 78.4
+[2025.02.07-01.48.28:191][776]LogBlueprintUserMessages: [BP_HealthComponent] 78.2
+[2025.02.07-01.48.28:199][777]LogBlueprintUserMessages: [BP_HealthComponent] 78.0
+[2025.02.07-01.48.28:208][778]LogBlueprintUserMessages: [BP_HealthComponent] 77.8
+[2025.02.07-01.48.28:215][779]LogBlueprintUserMessages: [BP_HealthComponent] 77.6
+[2025.02.07-01.48.28:224][780]LogBlueprintUserMessages: [BP_HealthComponent] 77.4
+[2025.02.07-01.48.28:233][781]LogBlueprintUserMessages: [BP_HealthComponent] 77.2
+[2025.02.07-01.48.28:241][782]LogBlueprintUserMessages: [BP_HealthComponent] 77.0
+[2025.02.07-01.48.28:249][783]LogBlueprintUserMessages: [BP_HealthComponent] 76.8
+[2025.02.07-01.48.28:258][784]LogBlueprintUserMessages: [BP_HealthComponent] 76.6
+[2025.02.07-01.48.28:266][785]LogBlueprintUserMessages: [BP_HealthComponent] 76.4
+[2025.02.07-01.48.28:274][786]LogBlueprintUserMessages: [BP_HealthComponent] 76.2
+[2025.02.07-01.48.28:282][787]LogBlueprintUserMessages: [BP_HealthComponent] 76.0
+[2025.02.07-01.48.28:291][788]LogBlueprintUserMessages: [BP_HealthComponent] 75.8
+[2025.02.07-01.48.28:300][789]LogBlueprintUserMessages: [BP_HealthComponent] 75.6
+[2025.02.07-01.48.28:308][790]LogBlueprintUserMessages: [BP_HealthComponent] 75.4
+[2025.02.07-01.48.28:317][791]LogBlueprintUserMessages: [BP_HealthComponent] 75.2
+[2025.02.07-01.48.28:324][792]LogBlueprintUserMessages: [BP_HealthComponent] 75.0
+[2025.02.07-01.48.28:332][793]LogBlueprintUserMessages: [BP_HealthComponent] 74.8
+[2025.02.07-01.48.28:341][794]LogBlueprintUserMessages: [BP_HealthComponent] 74.6
+[2025.02.07-01.48.28:349][795]LogBlueprintUserMessages: [BP_HealthComponent] 74.4
+[2025.02.07-01.48.28:357][796]LogBlueprintUserMessages: [BP_HealthComponent] 74.2
+[2025.02.07-01.48.28:366][797]LogBlueprintUserMessages: [BP_HealthComponent] 74.0
+[2025.02.07-01.48.28:375][798]LogBlueprintUserMessages: [BP_HealthComponent] 73.8
+[2025.02.07-01.48.28:382][799]LogBlueprintUserMessages: [BP_HealthComponent] 73.6
+[2025.02.07-01.48.28:391][800]LogBlueprintUserMessages: [BP_HealthComponent] 73.4
+[2025.02.07-01.48.28:399][801]LogBlueprintUserMessages: [BP_HealthComponent] 73.2
+[2025.02.07-01.48.28:408][802]LogBlueprintUserMessages: [BP_HealthComponent] 73.0
+[2025.02.07-01.48.28:416][803]LogBlueprintUserMessages: [BP_HealthComponent] 72.8
+[2025.02.07-01.48.28:424][804]LogBlueprintUserMessages: [BP_HealthComponent] 72.6
+[2025.02.07-01.48.28:433][805]LogBlueprintUserMessages: [BP_HealthComponent] 72.4
+[2025.02.07-01.48.28:442][806]LogBlueprintUserMessages: [BP_HealthComponent] 72.2
+[2025.02.07-01.48.28:449][807]LogBlueprintUserMessages: [BP_HealthComponent] 72.0
+[2025.02.07-01.48.28:457][808]LogBlueprintUserMessages: [BP_HealthComponent] 71.8
+[2025.02.07-01.48.28:465][809]LogBlueprintUserMessages: [BP_HealthComponent] 71.6
+[2025.02.07-01.48.28:474][810]LogBlueprintUserMessages: [BP_HealthComponent] 71.4
+[2025.02.07-01.48.28:483][811]LogBlueprintUserMessages: [BP_HealthComponent] 71.2
+[2025.02.07-01.48.28:491][812]LogBlueprintUserMessages: [BP_HealthComponent] 71.0
+[2025.02.07-01.48.28:499][813]LogBlueprintUserMessages: [BP_HealthComponent] 70.8
+[2025.02.07-01.48.28:508][814]LogBlueprintUserMessages: [BP_HealthComponent] 70.6
+[2025.02.07-01.48.28:516][815]LogBlueprintUserMessages: [BP_HealthComponent] 70.4
+[2025.02.07-01.48.28:524][816]LogBlueprintUserMessages: [BP_HealthComponent] 70.2
+[2025.02.07-01.48.28:533][817]LogBlueprintUserMessages: [BP_HealthComponent] 70.0
+[2025.02.07-01.48.28:541][818]LogBlueprintUserMessages: [BP_HealthComponent] 69.8
+[2025.02.07-01.48.28:549][819]LogBlueprintUserMessages: [BP_HealthComponent] 69.6
+[2025.02.07-01.48.28:558][820]LogBlueprintUserMessages: [BP_HealthComponent] 69.4
+[2025.02.07-01.48.28:566][821]LogBlueprintUserMessages: [BP_HealthComponent] 69.2
+[2025.02.07-01.48.28:574][822]LogBlueprintUserMessages: [BP_HealthComponent] 69.0
+[2025.02.07-01.48.28:583][823]LogBlueprintUserMessages: [BP_HealthComponent] 68.8
+[2025.02.07-01.48.28:591][824]LogBlueprintUserMessages: [BP_HealthComponent] 68.6
+[2025.02.07-01.48.28:599][825]LogBlueprintUserMessages: [BP_HealthComponent] 68.4
+[2025.02.07-01.48.28:608][826]LogBlueprintUserMessages: [BP_HealthComponent] 68.2
+[2025.02.07-01.48.28:616][827]LogBlueprintUserMessages: [BP_HealthComponent] 68.0
+[2025.02.07-01.48.28:623][828]LogBlueprintUserMessages: [BP_HealthComponent] 67.8
+[2025.02.07-01.48.28:632][829]LogBlueprintUserMessages: [BP_HealthComponent] 67.6
+[2025.02.07-01.48.28:642][830]LogBlueprintUserMessages: [BP_HealthComponent] 67.4
+[2025.02.07-01.48.28:649][831]LogBlueprintUserMessages: [BP_HealthComponent] 67.2
+[2025.02.07-01.48.28:658][832]LogBlueprintUserMessages: [BP_HealthComponent] 67.0
+[2025.02.07-01.48.28:666][833]LogBlueprintUserMessages: [BP_HealthComponent] 66.8
+[2025.02.07-01.48.28:675][834]LogBlueprintUserMessages: [BP_HealthComponent] 66.6
+[2025.02.07-01.48.28:683][835]LogBlueprintUserMessages: [BP_HealthComponent] 66.4
+[2025.02.07-01.48.28:691][836]LogBlueprintUserMessages: [BP_HealthComponent] 66.2
+[2025.02.07-01.48.28:699][837]LogBlueprintUserMessages: [BP_HealthComponent] 66.0
+[2025.02.07-01.48.28:708][838]LogBlueprintUserMessages: [BP_HealthComponent] 65.8
+[2025.02.07-01.48.28:716][839]LogBlueprintUserMessages: [BP_HealthComponent] 65.6
+[2025.02.07-01.48.28:723][840]LogBlueprintUserMessages: [BP_HealthComponent] 65.4
+[2025.02.07-01.48.28:732][841]LogBlueprintUserMessages: [BP_HealthComponent] 65.2
+[2025.02.07-01.48.28:740][842]LogBlueprintUserMessages: [BP_HealthComponent] 65.0
+[2025.02.07-01.48.28:749][843]LogBlueprintUserMessages: [BP_HealthComponent] 64.8
+[2025.02.07-01.48.28:757][844]LogBlueprintUserMessages: [BP_HealthComponent] 64.6
+[2025.02.07-01.48.28:766][845]LogBlueprintUserMessages: [BP_HealthComponent] 64.4
+[2025.02.07-01.48.28:774][846]LogBlueprintUserMessages: [BP_HealthComponent] 64.2
+[2025.02.07-01.48.28:783][847]LogBlueprintUserMessages: [BP_HealthComponent] 64.0
+[2025.02.07-01.48.28:792][848]LogBlueprintUserMessages: [BP_HealthComponent] 63.8
+[2025.02.07-01.48.28:799][849]LogBlueprintUserMessages: [BP_HealthComponent] 63.6
+[2025.02.07-01.48.28:808][850]LogBlueprintUserMessages: [BP_HealthComponent] 63.4
+[2025.02.07-01.48.28:817][851]LogBlueprintUserMessages: [BP_HealthComponent] 63.2
+[2025.02.07-01.48.28:824][852]LogBlueprintUserMessages: [BP_HealthComponent] 63.0
+[2025.02.07-01.48.28:832][853]LogBlueprintUserMessages: [BP_HealthComponent] 62.8
+[2025.02.07-01.48.28:841][854]LogBlueprintUserMessages: [BP_HealthComponent] 62.6
+[2025.02.07-01.48.28:849][855]LogBlueprintUserMessages: [BP_HealthComponent] 62.4
+[2025.02.07-01.48.28:857][856]LogBlueprintUserMessages: [BP_HealthComponent] 62.2
+[2025.02.07-01.48.28:866][857]LogBlueprintUserMessages: [BP_HealthComponent] 62.0
+[2025.02.07-01.48.28:874][858]LogBlueprintUserMessages: [BP_HealthComponent] 61.8
+[2025.02.07-01.48.28:882][859]LogBlueprintUserMessages: [BP_HealthComponent] 61.6
+[2025.02.07-01.48.28:891][860]LogBlueprintUserMessages: [BP_HealthComponent] 61.4
+[2025.02.07-01.48.28:900][861]LogBlueprintUserMessages: [BP_HealthComponent] 61.2
+[2025.02.07-01.48.28:907][862]LogBlueprintUserMessages: [BP_HealthComponent] 61.0
+[2025.02.07-01.48.28:916][863]LogBlueprintUserMessages: [BP_HealthComponent] 60.8
+[2025.02.07-01.48.28:924][864]LogBlueprintUserMessages: [BP_HealthComponent] 60.6
+[2025.02.07-01.48.28:933][865]LogBlueprintUserMessages: [BP_HealthComponent] 60.4
+[2025.02.07-01.48.28:941][866]LogBlueprintUserMessages: [BP_HealthComponent] 60.2
+[2025.02.07-01.48.28:948][867]LogBlueprintUserMessages: [BP_HealthComponent] 60.0
+[2025.02.07-01.48.28:957][868]LogBlueprintUserMessages: [BP_HealthComponent] 59.8
+[2025.02.07-01.48.28:965][869]LogBlueprintUserMessages: [BP_HealthComponent] 59.6
+[2025.02.07-01.48.28:974][870]LogBlueprintUserMessages: [BP_HealthComponent] 59.4
+[2025.02.07-01.48.28:983][871]LogBlueprintUserMessages: [BP_HealthComponent] 59.2
+[2025.02.07-01.48.28:990][872]LogBlueprintUserMessages: [BP_HealthComponent] 59.0
+[2025.02.07-01.48.28:998][873]LogBlueprintUserMessages: [BP_HealthComponent] 58.8
+[2025.02.07-01.48.29:006][874]LogBlueprintUserMessages: [BP_HealthComponent] 58.6
+[2025.02.07-01.48.29:016][875]LogBlueprintUserMessages: [BP_HealthComponent] 58.4
+[2025.02.07-01.48.29:024][876]LogBlueprintUserMessages: [BP_HealthComponent] 58.2
+[2025.02.07-01.48.29:032][877]LogBlueprintUserMessages: [BP_HealthComponent] 58.0
+[2025.02.07-01.48.29:041][878]LogBlueprintUserMessages: [BP_HealthComponent] 57.8
+[2025.02.07-01.48.29:049][879]LogBlueprintUserMessages: [BP_HealthComponent] 57.6
+[2025.02.07-01.48.29:057][880]LogBlueprintUserMessages: [BP_HealthComponent] 57.4
+[2025.02.07-01.48.29:065][881]LogBlueprintUserMessages: [BP_HealthComponent] 57.2
+[2025.02.07-01.48.29:074][882]LogBlueprintUserMessages: [BP_HealthComponent] 57.0
+[2025.02.07-01.48.29:083][883]LogBlueprintUserMessages: [BP_HealthComponent] 56.8
+[2025.02.07-01.48.29:090][884]LogBlueprintUserMessages: [BP_HealthComponent] 56.6
+[2025.02.07-01.48.29:099][885]LogBlueprintUserMessages: [BP_HealthComponent] 56.4
+[2025.02.07-01.48.29:107][886]LogBlueprintUserMessages: [BP_HealthComponent] 56.2
+[2025.02.07-01.48.29:115][887]LogBlueprintUserMessages: [BP_HealthComponent] 56.0
+[2025.02.07-01.48.29:124][888]LogBlueprintUserMessages: [BP_HealthComponent] 55.8
+[2025.02.07-01.48.29:132][889]LogBlueprintUserMessages: [BP_HealthComponent] 55.6
+[2025.02.07-01.48.29:140][890]LogBlueprintUserMessages: [BP_HealthComponent] 55.4
+[2025.02.07-01.48.29:149][891]LogBlueprintUserMessages: [BP_HealthComponent] 55.2
+[2025.02.07-01.48.29:157][892]LogBlueprintUserMessages: [BP_HealthComponent] 55.0
+[2025.02.07-01.48.29:166][893]LogBlueprintUserMessages: [BP_HealthComponent] 54.8
+[2025.02.07-01.48.29:173][894]LogBlueprintUserMessages: [BP_HealthComponent] 54.6
+[2025.02.07-01.48.29:183][895]LogBlueprintUserMessages: [BP_HealthComponent] 54.4
+[2025.02.07-01.48.29:191][896]LogBlueprintUserMessages: [BP_HealthComponent] 54.2
+[2025.02.07-01.48.29:198][897]LogBlueprintUserMessages: [BP_HealthComponent] 54.0
+[2025.02.07-01.48.29:208][898]LogBlueprintUserMessages: [BP_HealthComponent] 53.8
+[2025.02.07-01.48.29:215][899]LogBlueprintUserMessages: [BP_HealthComponent] 53.6
+[2025.02.07-01.48.29:224][900]LogBlueprintUserMessages: [BP_HealthComponent] 53.4
+[2025.02.07-01.48.29:232][901]LogBlueprintUserMessages: [BP_HealthComponent] 53.2
+[2025.02.07-01.48.29:241][902]LogBlueprintUserMessages: [BP_HealthComponent] 53.0
+[2025.02.07-01.48.29:249][903]LogBlueprintUserMessages: [BP_HealthComponent] 52.8
+[2025.02.07-01.48.29:257][904]LogBlueprintUserMessages: [BP_HealthComponent] 52.6
+[2025.02.07-01.48.29:266][905]LogBlueprintUserMessages: [BP_HealthComponent] 52.4
+[2025.02.07-01.48.29:274][906]LogBlueprintUserMessages: [BP_HealthComponent] 52.2
+[2025.02.07-01.48.29:283][907]LogBlueprintUserMessages: [BP_HealthComponent] 52.0
+[2025.02.07-01.48.29:290][908]LogBlueprintUserMessages: [BP_HealthComponent] 51.8
+[2025.02.07-01.48.29:299][909]LogBlueprintUserMessages: [BP_HealthComponent] 51.6
+[2025.02.07-01.48.29:307][910]LogBlueprintUserMessages: [BP_HealthComponent] 51.4
+[2025.02.07-01.48.29:315][911]LogBlueprintUserMessages: [BP_HealthComponent] 51.2
+[2025.02.07-01.48.29:324][912]LogBlueprintUserMessages: [BP_HealthComponent] 51.0
+[2025.02.07-01.48.29:332][913]LogBlueprintUserMessages: [BP_HealthComponent] 50.8
+[2025.02.07-01.48.29:340][914]LogBlueprintUserMessages: [BP_HealthComponent] 50.6
+[2025.02.07-01.48.29:349][915]LogBlueprintUserMessages: [BP_HealthComponent] 50.4
+[2025.02.07-01.48.29:357][916]LogBlueprintUserMessages: [BP_HealthComponent] 50.2
+[2025.02.07-01.48.29:365][917]LogBlueprintUserMessages: [BP_HealthComponent] 50.0
+[2025.02.07-01.48.29:374][918]LogBlueprintUserMessages: [BP_HealthComponent] 49.8
+[2025.02.07-01.48.29:382][919]LogBlueprintUserMessages: [BP_HealthComponent] 49.6
+[2025.02.07-01.48.29:390][920]LogBlueprintUserMessages: [BP_HealthComponent] 49.4
+[2025.02.07-01.48.29:399][921]LogBlueprintUserMessages: [BP_HealthComponent] 49.2
+[2025.02.07-01.48.29:407][922]LogBlueprintUserMessages: [BP_HealthComponent] 49.0
+[2025.02.07-01.48.29:416][923]LogBlueprintUserMessages: [BP_HealthComponent] 48.8
+[2025.02.07-01.48.29:424][924]LogBlueprintUserMessages: [BP_HealthComponent] 48.6
+[2025.02.07-01.48.29:432][925]LogBlueprintUserMessages: [BP_HealthComponent] 48.4
+[2025.02.07-01.48.29:440][926]LogBlueprintUserMessages: [BP_HealthComponent] 48.2
+[2025.02.07-01.48.29:448][927]LogBlueprintUserMessages: [BP_HealthComponent] 48.0
+[2025.02.07-01.48.29:457][928]LogBlueprintUserMessages: [BP_HealthComponent] 47.8
+[2025.02.07-01.48.29:466][929]LogBlueprintUserMessages: [BP_HealthComponent] 47.6
+[2025.02.07-01.48.29:475][930]LogBlueprintUserMessages: [BP_HealthComponent] 47.4
+[2025.02.07-01.48.29:483][931]LogBlueprintUserMessages: [BP_HealthComponent] 47.2
+[2025.02.07-01.48.29:490][932]LogBlueprintUserMessages: [BP_HealthComponent] 47.0
+[2025.02.07-01.48.29:500][933]LogBlueprintUserMessages: [BP_HealthComponent] 46.8
+[2025.02.07-01.48.29:507][934]LogBlueprintUserMessages: [BP_HealthComponent] 46.6
+[2025.02.07-01.48.29:516][935]LogBlueprintUserMessages: [BP_HealthComponent] 46.4
+[2025.02.07-01.48.29:524][936]LogBlueprintUserMessages: [BP_HealthComponent] 46.2
+[2025.02.07-01.48.29:533][937]LogBlueprintUserMessages: [BP_HealthComponent] 46.0
+[2025.02.07-01.48.29:542][938]LogBlueprintUserMessages: [BP_HealthComponent] 45.8
+[2025.02.07-01.48.29:548][939]LogBlueprintUserMessages: [BP_HealthComponent] 45.6
+[2025.02.07-01.48.29:558][940]LogBlueprintUserMessages: [BP_HealthComponent] 45.4
+[2025.02.07-01.48.29:566][941]LogBlueprintUserMessages: [BP_HealthComponent] 45.2
+[2025.02.07-01.48.29:574][942]LogBlueprintUserMessages: [BP_HealthComponent] 45.0
+[2025.02.07-01.48.29:583][943]LogBlueprintUserMessages: [BP_HealthComponent] 44.8
+[2025.02.07-01.48.29:590][944]LogBlueprintUserMessages: [BP_HealthComponent] 44.6
+[2025.02.07-01.48.29:599][945]LogBlueprintUserMessages: [BP_HealthComponent] 44.4
+[2025.02.07-01.48.29:608][946]LogBlueprintUserMessages: [BP_HealthComponent] 44.2
+[2025.02.07-01.48.29:615][947]LogBlueprintUserMessages: [BP_HealthComponent] 44.0
+[2025.02.07-01.48.29:624][948]LogBlueprintUserMessages: [BP_HealthComponent] 43.8
+[2025.02.07-01.48.29:632][949]LogBlueprintUserMessages: [BP_HealthComponent] 43.6
+[2025.02.07-01.48.29:641][950]LogBlueprintUserMessages: [BP_HealthComponent] 44.016675
+[2025.02.07-01.48.29:649][951]LogBlueprintUserMessages: [BP_HealthComponent] 44.43335
+[2025.02.07-01.48.29:658][952]LogBlueprintUserMessages: [BP_HealthComponent] 44.85002
+[2025.02.07-01.48.29:665][953]LogBlueprintUserMessages: [BP_HealthComponent] 45.26669
+[2025.02.07-01.48.29:674][954]LogBlueprintUserMessages: [BP_HealthComponent] 45.683365
+[2025.02.07-01.48.29:682][955]LogBlueprintUserMessages: [BP_HealthComponent] 46.100035
+[2025.02.07-01.48.29:691][956]LogBlueprintUserMessages: [BP_HealthComponent] 46.516705
+[2025.02.07-01.48.29:699][957]LogBlueprintUserMessages: [BP_HealthComponent] 46.93338
+[2025.02.07-01.48.29:707][958]LogBlueprintUserMessages: [BP_HealthComponent] 47.350055
+[2025.02.07-01.48.29:716][959]LogBlueprintUserMessages: [BP_HealthComponent] 47.76673
+[2025.02.07-01.48.29:724][960]LogBlueprintUserMessages: [BP_HealthComponent] 48.183405
+[2025.02.07-01.48.29:732][961]LogBlueprintUserMessages: [BP_HealthComponent] 48.600085
+[2025.02.07-01.48.29:741][962]LogBlueprintUserMessages: [BP_HealthComponent] 49.01676
+[2025.02.07-01.48.29:749][963]LogBlueprintUserMessages: [BP_HealthComponent] 49.433435
+[2025.02.07-01.48.29:758][964]LogBlueprintUserMessages: [BP_HealthComponent] 49.85011
+[2025.02.07-01.48.29:765][965]LogBlueprintUserMessages: [BP_HealthComponent] 50.26678
+[2025.02.07-01.48.29:775][966]LogBlueprintUserMessages: [BP_HealthComponent] 50.683455
+[2025.02.07-01.48.29:783][967]LogBlueprintUserMessages: [BP_HealthComponent] 51.100125
+[2025.02.07-01.48.29:791][968]LogBlueprintUserMessages: [BP_HealthComponent] 51.5168
+[2025.02.07-01.48.29:799][969]LogBlueprintUserMessages: [BP_HealthComponent] 51.93348
+[2025.02.07-01.48.29:808][970]LogBlueprintUserMessages: [BP_HealthComponent] 52.350155
+[2025.02.07-01.48.29:816][971]LogBlueprintUserMessages: [BP_HealthComponent] 52.76683
+[2025.02.07-01.48.29:824][972]LogBlueprintUserMessages: [BP_HealthComponent] 53.1835
+[2025.02.07-01.48.29:832][973]LogBlueprintUserMessages: [BP_HealthComponent] 53.60018
+[2025.02.07-01.48.29:842][974]LogBlueprintUserMessages: [BP_HealthComponent] 54.016855
+[2025.02.07-01.48.29:850][975]LogBlueprintUserMessages: [BP_HealthComponent] 54.433525
+[2025.02.07-01.48.29:857][976]LogBlueprintUserMessages: [BP_HealthComponent] 54.8502
+[2025.02.07-01.48.29:866][977]LogBlueprintUserMessages: [BP_HealthComponent] 55.266875
+[2025.02.07-01.48.29:874][978]LogBlueprintUserMessages: [BP_HealthComponent] 55.683545
+[2025.02.07-01.48.29:883][979]LogBlueprintUserMessages: [BP_HealthComponent] 56.100215
+[2025.02.07-01.48.29:891][980]LogBlueprintUserMessages: [BP_HealthComponent] 56.516885
+[2025.02.07-01.48.29:900][981]LogBlueprintUserMessages: [BP_HealthComponent] 56.93356
+[2025.02.07-01.48.29:908][982]LogBlueprintUserMessages: [BP_HealthComponent] 57.35023
+[2025.02.07-01.48.29:916][983]LogBlueprintUserMessages: [BP_HealthComponent] 57.7669
+[2025.02.07-01.48.29:924][984]LogBlueprintUserMessages: [BP_HealthComponent] 58.18357
+[2025.02.07-01.48.29:932][985]LogBlueprintUserMessages: [BP_HealthComponent] 58.600245
+[2025.02.07-01.48.29:941][986]LogBlueprintUserMessages: [BP_HealthComponent] 59.01692
+[2025.02.07-01.48.29:949][987]LogBlueprintUserMessages: [BP_HealthComponent] 59.4336
+[2025.02.07-01.48.29:958][988]LogBlueprintUserMessages: [BP_HealthComponent] 59.850275
+[2025.02.07-01.48.29:966][989]LogBlueprintUserMessages: [BP_HealthComponent] 60.26695
+[2025.02.07-01.48.29:975][990]LogBlueprintUserMessages: [BP_HealthComponent] 60.68362
+[2025.02.07-01.48.29:982][991]LogBlueprintUserMessages: [BP_HealthComponent] 61.10029
+[2025.02.07-01.48.29:991][992]LogBlueprintUserMessages: [BP_HealthComponent] 61.516965
+[2025.02.07-01.48.29:999][993]LogBlueprintUserMessages: [BP_HealthComponent] 61.93364
+[2025.02.07-01.48.30:008][994]LogBlueprintUserMessages: [BP_HealthComponent] 62.350315
+[2025.02.07-01.48.30:016][995]LogBlueprintUserMessages: [BP_HealthComponent] 62.766985
+[2025.02.07-01.48.30:024][996]LogBlueprintUserMessages: [BP_HealthComponent] 63.183655
+[2025.02.07-01.48.30:033][997]LogBlueprintUserMessages: [BP_HealthComponent] 63.60033
+[2025.02.07-01.48.30:040][998]LogBlueprintUserMessages: [BP_HealthComponent] 64.017005
+[2025.02.07-01.48.30:049][999]LogBlueprintUserMessages: [BP_HealthComponent] 64.43368
+[2025.02.07-01.48.30:058][  0]LogBlueprintUserMessages: [BP_HealthComponent] 64.850355
+[2025.02.07-01.48.30:066][  1]LogBlueprintUserMessages: [BP_HealthComponent] 65.26703
+[2025.02.07-01.48.30:075][  2]LogBlueprintUserMessages: [BP_HealthComponent] 65.6837
+[2025.02.07-01.48.30:082][  3]LogBlueprintUserMessages: [BP_HealthComponent] 66.10037
+[2025.02.07-01.48.30:091][  4]LogBlueprintUserMessages: [BP_HealthComponent] 66.51704
+[2025.02.07-01.48.30:100][  5]LogBlueprintUserMessages: [BP_HealthComponent] 66.933715
+[2025.02.07-01.48.30:108][  6]LogBlueprintUserMessages: [BP_HealthComponent] 67.350385
+[2025.02.07-01.48.30:116][  7]LogBlueprintUserMessages: [BP_HealthComponent] 67.76706
+[2025.02.07-01.48.30:125][  8]LogBlueprintUserMessages: [BP_HealthComponent] 68.183735
+[2025.02.07-01.48.30:132][  9]LogBlueprintUserMessages: [BP_HealthComponent] 68.60043
+[2025.02.07-01.48.30:141][ 10]LogBlueprintUserMessages: [BP_HealthComponent] 69.0171
+[2025.02.07-01.48.30:149][ 11]LogBlueprintUserMessages: [BP_HealthComponent] 69.433775
+[2025.02.07-01.48.30:158][ 12]LogBlueprintUserMessages: [BP_HealthComponent] 69.85045
+[2025.02.07-01.48.30:167][ 13]LogBlueprintUserMessages: [BP_HealthComponent] 70.26712
+[2025.02.07-01.48.30:174][ 14]LogBlueprintUserMessages: [BP_HealthComponent] 70.683795
+[2025.02.07-01.48.30:183][ 15]LogBlueprintUserMessages: [BP_HealthComponent] 71.10047
+[2025.02.07-01.48.30:191][ 16]LogBlueprintUserMessages: [BP_HealthComponent] 71.51714
+[2025.02.07-01.48.30:200][ 17]LogBlueprintUserMessages: [BP_HealthComponent] 71.933815
+[2025.02.07-01.48.30:207][ 18]LogBlueprintUserMessages: [BP_HealthComponent] 72.35049
+[2025.02.07-01.48.30:216][ 19]LogBlueprintUserMessages: [BP_HealthComponent] 72.767165
+[2025.02.07-01.48.30:224][ 20]LogBlueprintUserMessages: [BP_HealthComponent] 73.18384
+[2025.02.07-01.48.30:233][ 21]LogBlueprintUserMessages: [BP_HealthComponent] 73.600515
+[2025.02.07-01.48.30:241][ 22]LogBlueprintUserMessages: [BP_HealthComponent] 74.017185
+[2025.02.07-01.48.30:250][ 23]LogBlueprintUserMessages: [BP_HealthComponent] 74.433855
+[2025.02.07-01.48.30:257][ 24]LogBlueprintUserMessages: [BP_HealthComponent] 74.850525
+[2025.02.07-01.48.30:266][ 25]LogBlueprintUserMessages: [BP_HealthComponent] 75.267195
+[2025.02.07-01.48.30:274][ 26]LogBlueprintUserMessages: [BP_HealthComponent] 75.683865
+[2025.02.07-01.48.30:282][ 27]LogBlueprintUserMessages: [BP_HealthComponent] 76.10054
+[2025.02.07-01.48.30:291][ 28]LogBlueprintUserMessages: [BP_HealthComponent] 76.51721
+[2025.02.07-01.48.30:300][ 29]LogBlueprintUserMessages: [BP_HealthComponent] 76.933885
+[2025.02.07-01.48.30:307][ 30]LogBlueprintUserMessages: [BP_HealthComponent] 77.350555
+[2025.02.07-01.48.30:316][ 31]LogBlueprintUserMessages: [BP_HealthComponent] 77.76723
+[2025.02.07-01.48.30:325][ 32]LogBlueprintUserMessages: [BP_HealthComponent] 78.183905
+[2025.02.07-01.48.30:333][ 33]LogBlueprintUserMessages: [BP_HealthComponent] 78.60058
+[2025.02.07-01.48.30:341][ 34]LogBlueprintUserMessages: [BP_HealthComponent] 79.01725
+[2025.02.07-01.48.30:349][ 35]LogBlueprintUserMessages: [BP_HealthComponent] 79.433925
+[2025.02.07-01.48.30:358][ 36]LogBlueprintUserMessages: [BP_HealthComponent] 79.850595
+[2025.02.07-01.48.30:366][ 37]LogBlueprintUserMessages: [BP_HealthComponent] 80.26727
+[2025.02.07-01.48.30:374][ 38]LogBlueprintUserMessages: [BP_HealthComponent] 80.68394
+[2025.02.07-01.48.30:383][ 39]LogBlueprintUserMessages: [BP_HealthComponent] 81.100615
+[2025.02.07-01.48.30:390][ 40]LogBlueprintUserMessages: [BP_HealthComponent] 81.517285
+[2025.02.07-01.48.30:399][ 41]LogBlueprintUserMessages: [BP_HealthComponent] 81.933955
+[2025.02.07-01.48.30:408][ 42]LogBlueprintUserMessages: [BP_HealthComponent] 82.350625
+[2025.02.07-01.48.30:416][ 43]LogBlueprintUserMessages: [BP_HealthComponent] 82.7673
+[2025.02.07-01.48.30:424][ 44]LogBlueprintUserMessages: [BP_HealthComponent] 83.183975
+[2025.02.07-01.48.30:433][ 45]LogBlueprintUserMessages: [BP_HealthComponent] 83.600645
+[2025.02.07-01.48.30:441][ 46]LogBlueprintUserMessages: [BP_HealthComponent] 84.01732
+[2025.02.07-01.48.30:450][ 47]LogBlueprintUserMessages: [BP_HealthComponent] 84.433995
+[2025.02.07-01.48.30:458][ 48]LogBlueprintUserMessages: [BP_HealthComponent] 84.85067
+[2025.02.07-01.48.30:466][ 49]LogBlueprintUserMessages: [BP_HealthComponent] 85.267345
+[2025.02.07-01.48.30:474][ 50]LogBlueprintUserMessages: [BP_HealthComponent] 85.684015
+[2025.02.07-01.48.30:483][ 51]LogBlueprintUserMessages: [BP_HealthComponent] 86.100685
+[2025.02.07-01.48.30:491][ 52]LogBlueprintUserMessages: [BP_HealthComponent] 86.51736
+[2025.02.07-01.48.30:500][ 53]LogBlueprintUserMessages: [BP_HealthComponent] 86.93403
+[2025.02.07-01.48.30:508][ 54]LogBlueprintUserMessages: [BP_HealthComponent] 87.350705
+[2025.02.07-01.48.30:515][ 55]LogBlueprintUserMessages: [BP_HealthComponent] 87.767375
+[2025.02.07-01.48.30:524][ 56]LogBlueprintUserMessages: [BP_HealthComponent] 88.18405
+[2025.02.07-01.48.30:532][ 57]LogBlueprintUserMessages: [BP_HealthComponent] 88.600725
+[2025.02.07-01.48.30:541][ 58]LogBlueprintUserMessages: [BP_HealthComponent] 89.017395
+[2025.02.07-01.48.30:549][ 59]LogBlueprintUserMessages: [BP_HealthComponent] 89.43407
+[2025.02.07-01.48.30:557][ 60]LogBlueprintUserMessages: [BP_HealthComponent] 89.850745
+[2025.02.07-01.48.30:566][ 61]LogBlueprintUserMessages: [BP_HealthComponent] 90.26742
+[2025.02.07-01.48.30:574][ 62]LogBlueprintUserMessages: [BP_HealthComponent] 90.684095
+[2025.02.07-01.48.30:583][ 63]LogBlueprintUserMessages: [BP_HealthComponent] 91.10077
+[2025.02.07-01.48.30:592][ 64]LogBlueprintUserMessages: [BP_HealthComponent] 91.517445
+[2025.02.07-01.48.30:599][ 65]LogBlueprintUserMessages: [BP_HealthComponent] 91.934115
+[2025.02.07-01.48.30:607][ 66]LogBlueprintUserMessages: [BP_HealthComponent] 92.35079
+[2025.02.07-01.48.30:616][ 67]LogBlueprintUserMessages: [BP_HealthComponent] 92.76746
+[2025.02.07-01.48.30:625][ 68]LogBlueprintUserMessages: [BP_HealthComponent] 93.184135
+[2025.02.07-01.48.30:633][ 69]LogBlueprintUserMessages: [BP_HealthComponent] 93.60081
+[2025.02.07-01.48.30:641][ 70]LogBlueprintUserMessages: [BP_HealthComponent] 94.01748
+[2025.02.07-01.48.30:649][ 71]LogBlueprintUserMessages: [BP_HealthComponent] 94.434155
+[2025.02.07-01.48.30:658][ 72]LogBlueprintUserMessages: [BP_HealthComponent] 94.85083
+[2025.02.07-01.48.30:666][ 73]LogBlueprintUserMessages: [BP_HealthComponent] 95.267505
+[2025.02.07-01.48.30:675][ 74]LogBlueprintUserMessages: [BP_HealthComponent] 95.68418
+[2025.02.07-01.48.30:683][ 75]LogBlueprintUserMessages: [BP_HealthComponent] 96.100855
+[2025.02.07-01.48.30:691][ 76]LogBlueprintUserMessages: [BP_HealthComponent] 96.517525
+[2025.02.07-01.48.30:699][ 77]LogBlueprintUserMessages: [BP_HealthComponent] 96.9342
+[2025.02.07-01.48.30:708][ 78]LogBlueprintUserMessages: [BP_HealthComponent] 97.35087
+[2025.02.07-01.48.30:716][ 79]LogBlueprintUserMessages: [BP_HealthComponent] 97.76754
+[2025.02.07-01.48.30:725][ 80]LogBlueprintUserMessages: [BP_HealthComponent] 98.184215
+[2025.02.07-01.48.30:733][ 81]LogBlueprintUserMessages: [BP_HealthComponent] 98.600885
+[2025.02.07-01.48.30:742][ 82]LogBlueprintUserMessages: [BP_HealthComponent] 99.01756
+[2025.02.07-01.48.30:749][ 83]LogBlueprintUserMessages: [BP_HealthComponent] 99.43423
+[2025.02.07-01.48.30:758][ 84]LogBlueprintUserMessages: [BP_HealthComponent] 99.850905
+[2025.02.07-01.48.30:766][ 85]LogBlueprintUserMessages: [BP_HealthComponent] 100.0
+[2025.02.07-01.48.36:059][720]LogBlueprintUserMessages: [BP_HealthComponent] 99.8
+[2025.02.07-01.48.36:066][721]LogBlueprintUserMessages: [BP_HealthComponent] 99.6
+[2025.02.07-01.48.36:075][722]LogBlueprintUserMessages: [BP_HealthComponent] 99.4
+[2025.02.07-01.48.36:084][723]LogBlueprintUserMessages: [BP_HealthComponent] 99.2
+[2025.02.07-01.48.36:092][724]LogBlueprintUserMessages: [BP_HealthComponent] 99.0
+[2025.02.07-01.48.36:100][725]LogBlueprintUserMessages: [BP_HealthComponent] 98.8
+[2025.02.07-01.48.36:108][726]LogBlueprintUserMessages: [BP_HealthComponent] 98.6
+[2025.02.07-01.48.36:116][727]LogBlueprintUserMessages: [BP_HealthComponent] 98.4
+[2025.02.07-01.48.36:125][728]LogBlueprintUserMessages: [BP_HealthComponent] 98.2
+[2025.02.07-01.48.36:134][729]LogBlueprintUserMessages: [BP_HealthComponent] 98.0
+[2025.02.07-01.48.36:141][730]LogBlueprintUserMessages: [BP_HealthComponent] 97.8
+[2025.02.07-01.48.36:149][731]LogBlueprintUserMessages: [BP_HealthComponent] 97.6
+[2025.02.07-01.48.36:159][732]LogBlueprintUserMessages: [BP_HealthComponent] 97.4
+[2025.02.07-01.48.36:167][733]LogBlueprintUserMessages: [BP_HealthComponent] 97.2
+[2025.02.07-01.48.36:175][734]LogBlueprintUserMessages: [BP_HealthComponent] 97.0
+[2025.02.07-01.48.36:183][735]LogBlueprintUserMessages: [BP_HealthComponent] 96.8
+[2025.02.07-01.48.36:192][736]LogBlueprintUserMessages: [BP_HealthComponent] 96.6
+[2025.02.07-01.48.36:200][737]LogBlueprintUserMessages: [BP_HealthComponent] 96.4
+[2025.02.07-01.48.36:209][738]LogBlueprintUserMessages: [BP_HealthComponent] 96.2
+[2025.02.07-01.48.36:217][739]LogBlueprintUserMessages: [BP_HealthComponent] 96.0
+[2025.02.07-01.48.36:225][740]LogBlueprintUserMessages: [BP_HealthComponent] 95.8
+[2025.02.07-01.48.36:233][741]LogBlueprintUserMessages: [BP_HealthComponent] 95.6
+[2025.02.07-01.48.36:242][742]LogBlueprintUserMessages: [BP_HealthComponent] 95.4
+[2025.02.07-01.48.36:250][743]LogBlueprintUserMessages: [BP_HealthComponent] 95.2
+[2025.02.07-01.48.36:258][744]LogBlueprintUserMessages: [BP_HealthComponent] 95.0
+[2025.02.07-01.48.36:267][745]LogBlueprintUserMessages: [BP_HealthComponent] 94.8
+[2025.02.07-01.48.36:275][746]LogBlueprintUserMessages: [BP_HealthComponent] 94.6
+[2025.02.07-01.48.36:283][747]LogBlueprintUserMessages: [BP_HealthComponent] 94.4
+[2025.02.07-01.48.36:292][748]LogBlueprintUserMessages: [BP_HealthComponent] 94.2
+[2025.02.07-01.48.36:300][749]LogBlueprintUserMessages: [BP_HealthComponent] 94.0
+[2025.02.07-01.48.36:308][750]LogBlueprintUserMessages: [BP_HealthComponent] 93.8
+[2025.02.07-01.48.36:317][751]LogBlueprintUserMessages: [BP_HealthComponent] 93.6
+[2025.02.07-01.48.36:325][752]LogBlueprintUserMessages: [BP_HealthComponent] 93.4
+[2025.02.07-01.48.36:333][753]LogBlueprintUserMessages: [BP_HealthComponent] 93.2
+[2025.02.07-01.48.36:342][754]LogBlueprintUserMessages: [BP_HealthComponent] 93.0
+[2025.02.07-01.48.36:351][755]LogBlueprintUserMessages: [BP_HealthComponent] 92.8
+[2025.02.07-01.48.36:359][756]LogBlueprintUserMessages: [BP_HealthComponent] 92.6
+[2025.02.07-01.48.36:367][757]LogBlueprintUserMessages: [BP_HealthComponent] 92.4
+[2025.02.07-01.48.36:375][758]LogBlueprintUserMessages: [BP_HealthComponent] 92.2
+[2025.02.07-01.48.36:383][759]LogBlueprintUserMessages: [BP_HealthComponent] 92.0
+[2025.02.07-01.48.36:392][760]LogBlueprintUserMessages: [BP_HealthComponent] 91.8
+[2025.02.07-01.48.36:400][761]LogBlueprintUserMessages: [BP_HealthComponent] 91.6
+[2025.02.07-01.48.36:409][762]LogBlueprintUserMessages: [BP_HealthComponent] 91.4
+[2025.02.07-01.48.36:416][763]LogBlueprintUserMessages: [BP_HealthComponent] 91.2
+[2025.02.07-01.48.36:425][764]LogBlueprintUserMessages: [BP_HealthComponent] 91.0
+[2025.02.07-01.48.36:433][765]LogBlueprintUserMessages: [BP_HealthComponent] 90.8
+[2025.02.07-01.48.36:441][766]LogBlueprintUserMessages: [BP_HealthComponent] 90.6
+[2025.02.07-01.48.36:450][767]LogBlueprintUserMessages: [BP_HealthComponent] 90.4
+[2025.02.07-01.48.36:458][768]LogBlueprintUserMessages: [BP_HealthComponent] 90.2
+[2025.02.07-01.48.36:466][769]LogBlueprintUserMessages: [BP_HealthComponent] 90.0
+[2025.02.07-01.48.36:475][770]LogBlueprintUserMessages: [BP_HealthComponent] 89.8
+[2025.02.07-01.48.36:483][771]LogBlueprintUserMessages: [BP_HealthComponent] 89.6
+[2025.02.07-01.48.36:491][772]LogBlueprintUserMessages: [BP_HealthComponent] 89.4
+[2025.02.07-01.48.36:500][773]LogBlueprintUserMessages: [BP_HealthComponent] 89.2
+[2025.02.07-01.48.36:508][774]LogBlueprintUserMessages: [BP_HealthComponent] 89.0
+[2025.02.07-01.48.36:517][775]LogBlueprintUserMessages: [BP_HealthComponent] 88.8
+[2025.02.07-01.48.36:525][776]LogBlueprintUserMessages: [BP_HealthComponent] 88.6
+[2025.02.07-01.48.36:533][777]LogBlueprintUserMessages: [BP_HealthComponent] 88.4
+[2025.02.07-01.48.36:542][778]LogBlueprintUserMessages: [BP_HealthComponent] 88.2
+[2025.02.07-01.48.36:550][779]LogBlueprintUserMessages: [BP_HealthComponent] 88.0
+[2025.02.07-01.48.36:558][780]LogBlueprintUserMessages: [BP_HealthComponent] 87.8
+[2025.02.07-01.48.36:567][781]LogBlueprintUserMessages: [BP_HealthComponent] 87.6
+[2025.02.07-01.48.36:575][782]LogBlueprintUserMessages: [BP_HealthComponent] 87.4
+[2025.02.07-01.48.36:584][783]LogBlueprintUserMessages: [BP_HealthComponent] 87.2
+[2025.02.07-01.48.36:592][784]LogBlueprintUserMessages: [BP_HealthComponent] 87.0
+[2025.02.07-01.48.36:601][785]LogBlueprintUserMessages: [BP_HealthComponent] 86.8
+[2025.02.07-01.48.36:609][786]LogBlueprintUserMessages: [BP_HealthComponent] 86.6
+[2025.02.07-01.48.36:617][787]LogBlueprintUserMessages: [BP_HealthComponent] 86.4
+[2025.02.07-01.48.36:625][788]LogBlueprintUserMessages: [BP_HealthComponent] 86.2
+[2025.02.07-01.48.36:634][789]LogBlueprintUserMessages: [BP_HealthComponent] 86.0
+[2025.02.07-01.48.36:642][790]LogBlueprintUserMessages: [BP_HealthComponent] 85.8
+[2025.02.07-01.48.36:650][791]LogBlueprintUserMessages: [BP_HealthComponent] 85.6
+[2025.02.07-01.48.36:659][792]LogBlueprintUserMessages: [BP_HealthComponent] 85.4
+[2025.02.07-01.48.36:667][793]LogBlueprintUserMessages: [BP_HealthComponent] 85.2
+[2025.02.07-01.48.36:675][794]LogBlueprintUserMessages: [BP_HealthComponent] 85.0
+[2025.02.07-01.48.36:684][795]LogBlueprintUserMessages: [BP_HealthComponent] 84.8
+[2025.02.07-01.48.36:692][796]LogBlueprintUserMessages: [BP_HealthComponent] 84.6
+[2025.02.07-01.48.36:701][797]LogBlueprintUserMessages: [BP_HealthComponent] 84.4
+[2025.02.07-01.48.36:709][798]LogBlueprintUserMessages: [BP_HealthComponent] 84.2
+[2025.02.07-01.48.36:717][799]LogBlueprintUserMessages: [BP_HealthComponent] 84.0
+[2025.02.07-01.48.36:725][800]LogBlueprintUserMessages: [BP_HealthComponent] 83.8
+[2025.02.07-01.48.36:734][801]LogBlueprintUserMessages: [BP_HealthComponent] 83.6
+[2025.02.07-01.48.36:742][802]LogBlueprintUserMessages: [BP_HealthComponent] 83.4
+[2025.02.07-01.48.36:750][803]LogBlueprintUserMessages: [BP_HealthComponent] 83.2
+[2025.02.07-01.48.36:758][804]LogBlueprintUserMessages: [BP_HealthComponent] 83.0
+[2025.02.07-01.48.36:767][805]LogBlueprintUserMessages: [BP_HealthComponent] 82.8
+[2025.02.07-01.48.36:775][806]LogBlueprintUserMessages: [BP_HealthComponent] 82.6
+[2025.02.07-01.48.36:784][807]LogBlueprintUserMessages: [BP_HealthComponent] 82.4
+[2025.02.07-01.48.36:791][808]LogBlueprintUserMessages: [BP_HealthComponent] 82.2
+[2025.02.07-01.48.36:800][809]LogBlueprintUserMessages: [BP_HealthComponent] 82.0
+[2025.02.07-01.48.36:809][810]LogBlueprintUserMessages: [BP_HealthComponent] 81.8
+[2025.02.07-01.48.36:817][811]LogBlueprintUserMessages: [BP_HealthComponent] 81.6
+[2025.02.07-01.48.36:825][812]LogBlueprintUserMessages: [BP_HealthComponent] 82.016675
+[2025.02.07-01.48.36:834][813]LogBlueprintUserMessages: [BP_HealthComponent] 82.43335
+[2025.02.07-01.48.36:842][814]LogBlueprintUserMessages: [BP_HealthComponent] 82.850025
+[2025.02.07-01.48.36:850][815]LogBlueprintUserMessages: [BP_HealthComponent] 83.2667
+[2025.02.07-01.48.36:859][816]LogBlueprintUserMessages: [BP_HealthComponent] 83.683375
+[2025.02.07-01.48.36:867][817]LogBlueprintUserMessages: [BP_HealthComponent] 84.10005
+[2025.02.07-01.48.36:875][818]LogBlueprintUserMessages: [BP_HealthComponent] 84.51709
+[2025.02.07-01.48.36:883][819]LogBlueprintUserMessages: [BP_HealthComponent] 84.933765
+[2025.02.07-01.48.36:892][820]LogBlueprintUserMessages: [BP_HealthComponent] 85.350435
+[2025.02.07-01.48.36:900][821]LogBlueprintUserMessages: [BP_HealthComponent] 85.76711
+[2025.02.07-01.48.36:909][822]LogBlueprintUserMessages: [BP_HealthComponent] 86.183785
+[2025.02.07-01.48.36:916][823]LogBlueprintUserMessages: [BP_HealthComponent] 86.60046
+[2025.02.07-01.48.36:926][824]LogBlueprintUserMessages: [BP_HealthComponent] 87.017135
+[2025.02.07-01.48.36:934][825]LogBlueprintUserMessages: [BP_HealthComponent] 87.433805
+[2025.02.07-01.48.36:942][826]LogBlueprintUserMessages: [BP_HealthComponent] 87.850475
+[2025.02.07-01.48.36:950][827]LogBlueprintUserMessages: [BP_HealthComponent] 88.26715
+[2025.02.07-01.48.36:959][828]LogBlueprintUserMessages: [BP_HealthComponent] 88.683825
+[2025.02.07-01.48.36:966][829]LogBlueprintUserMessages: [BP_HealthComponent] 89.1005
+[2025.02.07-01.48.36:975][830]LogBlueprintUserMessages: [BP_HealthComponent] 89.51717
+[2025.02.07-01.48.36:984][831]LogBlueprintUserMessages: [BP_HealthComponent] 89.93384
+[2025.02.07-01.48.36:991][832]LogBlueprintUserMessages: [BP_HealthComponent] 90.350515
+[2025.02.07-01.48.37:000][833]LogBlueprintUserMessages: [BP_HealthComponent] 90.767185
+[2025.02.07-01.48.37:008][834]LogBlueprintUserMessages: [BP_HealthComponent] 91.18386
+[2025.02.07-01.48.37:016][835]LogBlueprintUserMessages: [BP_HealthComponent] 91.600535
+[2025.02.07-01.48.37:025][836]LogBlueprintUserMessages: [BP_HealthComponent] 92.01721
+[2025.02.07-01.48.37:033][837]LogBlueprintUserMessages: [BP_HealthComponent] 92.43388
+[2025.02.07-01.48.37:041][838]LogBlueprintUserMessages: [BP_HealthComponent] 92.850555
+[2025.02.07-01.48.37:051][839]LogBlueprintUserMessages: [BP_HealthComponent] 93.26723
+[2025.02.07-01.48.37:058][840]LogBlueprintUserMessages: [BP_HealthComponent] 93.683905
+[2025.02.07-01.48.37:067][841]LogBlueprintUserMessages: [BP_HealthComponent] 94.10058
+[2025.02.07-01.48.37:075][842]LogBlueprintUserMessages: [BP_HealthComponent] 94.517255
+[2025.02.07-01.48.37:083][843]LogBlueprintUserMessages: [BP_HealthComponent] 94.933925
+[2025.02.07-01.48.37:092][844]LogBlueprintUserMessages: [BP_HealthComponent] 95.350595
+[2025.02.07-01.48.37:100][845]LogBlueprintUserMessages: [BP_HealthComponent] 95.76727
+[2025.02.07-01.48.37:109][846]LogBlueprintUserMessages: [BP_HealthComponent] 96.18394
+[2025.02.07-01.48.37:117][847]LogBlueprintUserMessages: [BP_HealthComponent] 96.600615
+[2025.02.07-01.48.37:125][848]LogBlueprintUserMessages: [BP_HealthComponent] 97.017285
+[2025.02.07-01.48.37:134][849]LogBlueprintUserMessages: [BP_HealthComponent] 97.43396
+[2025.02.07-01.48.37:142][850]LogBlueprintUserMessages: [BP_HealthComponent] 97.850635
+[2025.02.07-01.48.37:150][851]LogBlueprintUserMessages: [BP_HealthComponent] 98.267315
+[2025.02.07-01.48.37:159][852]LogBlueprintUserMessages: [BP_HealthComponent] 98.68399
+[2025.02.07-01.48.37:167][853]LogBlueprintUserMessages: [BP_HealthComponent] 99.10066
+[2025.02.07-01.48.37:175][854]LogBlueprintUserMessages: [BP_HealthComponent] 99.517335
+[2025.02.07-01.48.37:184][855]LogBlueprintUserMessages: [BP_HealthComponent] 99.934005
+[2025.02.07-01.48.37:192][856]LogBlueprintUserMessages: [BP_HealthComponent] 100.0
+[2025.02.07-01.48.43:235][581]LogBlueprintUserMessages: [BP_HealthComponent] 80.0
+[2025.02.07-01.48.45:668][873]LogBlueprintUserMessages: [BP_HealthComponent] 79.8
+[2025.02.07-01.48.45:676][874]LogBlueprintUserMessages: [BP_HealthComponent] 79.6
+[2025.02.07-01.48.45:685][875]LogBlueprintUserMessages: [BP_HealthComponent] 79.4
+[2025.02.07-01.48.45:693][876]LogBlueprintUserMessages: [BP_HealthComponent] 79.2
+[2025.02.07-01.48.45:702][877]LogBlueprintUserMessages: [BP_HealthComponent] 79.0
+[2025.02.07-01.48.45:710][878]LogBlueprintUserMessages: [BP_HealthComponent] 78.8
+[2025.02.07-01.48.45:719][879]LogBlueprintUserMessages: [BP_HealthComponent] 78.6
+[2025.02.07-01.48.45:726][880]LogBlueprintUserMessages: [BP_HealthComponent] 78.4
+[2025.02.07-01.48.45:735][881]LogBlueprintUserMessages: [BP_HealthComponent] 78.2
+[2025.02.07-01.48.45:744][882]LogBlueprintUserMessages: [BP_HealthComponent] 78.0
+[2025.02.07-01.48.45:752][883]LogBlueprintUserMessages: [BP_HealthComponent] 77.8
+[2025.02.07-01.48.45:760][884]LogBlueprintUserMessages: [BP_HealthComponent] 77.6
+[2025.02.07-01.48.45:768][885]LogBlueprintUserMessages: [BP_HealthComponent] 77.4
+[2025.02.07-01.48.45:777][886]LogBlueprintUserMessages: [BP_HealthComponent] 77.2
+[2025.02.07-01.48.45:785][887]LogBlueprintUserMessages: [BP_HealthComponent] 77.0
+[2025.02.07-01.48.45:794][888]LogBlueprintUserMessages: [BP_HealthComponent] 76.8
+[2025.02.07-01.48.45:801][889]LogBlueprintUserMessages: [BP_HealthComponent] 76.6
+[2025.02.07-01.48.45:811][890]LogBlueprintUserMessages: [BP_HealthComponent] 76.4
+[2025.02.07-01.48.45:818][891]LogBlueprintUserMessages: [BP_HealthComponent] 76.2
+[2025.02.07-01.48.45:827][892]LogBlueprintUserMessages: [BP_HealthComponent] 76.0
+[2025.02.07-01.48.45:836][893]LogBlueprintUserMessages: [BP_HealthComponent] 75.8
+[2025.02.07-01.48.45:843][894]LogBlueprintUserMessages: [BP_HealthComponent] 75.6
+[2025.02.07-01.48.45:852][895]LogBlueprintUserMessages: [BP_HealthComponent] 75.4
+[2025.02.07-01.48.45:860][896]LogBlueprintUserMessages: [BP_HealthComponent] 75.2
+[2025.02.07-01.48.45:868][897]LogBlueprintUserMessages: [BP_HealthComponent] 75.0
+[2025.02.07-01.48.45:877][898]LogBlueprintUserMessages: [BP_HealthComponent] 74.8
+[2025.02.07-01.48.45:885][899]LogBlueprintUserMessages: [BP_HealthComponent] 74.6
+[2025.02.07-01.48.45:893][900]LogBlueprintUserMessages: [BP_HealthComponent] 74.4
+[2025.02.07-01.48.45:903][901]LogBlueprintUserMessages: [BP_HealthComponent] 74.2
+[2025.02.07-01.48.45:911][902]LogBlueprintUserMessages: [BP_HealthComponent] 74.0
+[2025.02.07-01.48.45:918][903]LogBlueprintUserMessages: [BP_HealthComponent] 73.8
+[2025.02.07-01.48.45:927][904]LogBlueprintUserMessages: [BP_HealthComponent] 73.6
+[2025.02.07-01.48.45:935][905]LogBlueprintUserMessages: [BP_HealthComponent] 73.4
+[2025.02.07-01.48.45:944][906]LogBlueprintUserMessages: [BP_HealthComponent] 73.2
+[2025.02.07-01.48.45:952][907]LogBlueprintUserMessages: [BP_HealthComponent] 73.0
+[2025.02.07-01.48.45:961][908]LogBlueprintUserMessages: [BP_HealthComponent] 72.8
+[2025.02.07-01.48.45:968][909]LogBlueprintUserMessages: [BP_HealthComponent] 72.6
+[2025.02.07-01.48.45:977][910]LogBlueprintUserMessages: [BP_HealthComponent] 72.4
+[2025.02.07-01.48.45:985][911]LogBlueprintUserMessages: [BP_HealthComponent] 72.2
+[2025.02.07-01.48.45:994][912]LogBlueprintUserMessages: [BP_HealthComponent] 72.0
+[2025.02.07-01.48.46:002][913]LogBlueprintUserMessages: [BP_HealthComponent] 71.8
+[2025.02.07-01.48.46:011][914]LogBlueprintUserMessages: [BP_HealthComponent] 71.6
+[2025.02.07-01.48.46:018][915]LogBlueprintUserMessages: [BP_HealthComponent] 71.4
+[2025.02.07-01.48.46:027][916]LogBlueprintUserMessages: [BP_HealthComponent] 71.2
+[2025.02.07-01.48.46:035][917]LogBlueprintUserMessages: [BP_HealthComponent] 71.0
+[2025.02.07-01.48.46:044][918]LogBlueprintUserMessages: [BP_HealthComponent] 70.8
+[2025.02.07-01.48.46:051][919]LogBlueprintUserMessages: [BP_HealthComponent] 70.6
+[2025.02.07-01.48.46:061][920]LogBlueprintUserMessages: [BP_HealthComponent] 70.4
+[2025.02.07-01.48.46:068][921]LogBlueprintUserMessages: [BP_HealthComponent] 70.2
+[2025.02.07-01.48.46:077][922]LogBlueprintUserMessages: [BP_HealthComponent] 70.0
+[2025.02.07-01.48.46:085][923]LogBlueprintUserMessages: [BP_HealthComponent] 69.8
+[2025.02.07-01.48.46:094][924]LogBlueprintUserMessages: [BP_HealthComponent] 69.6
+[2025.02.07-01.48.46:102][925]LogBlueprintUserMessages: [BP_HealthComponent] 69.4
+[2025.02.07-01.48.46:110][926]LogBlueprintUserMessages: [BP_HealthComponent] 69.2
+[2025.02.07-01.48.46:118][927]LogBlueprintUserMessages: [BP_HealthComponent] 69.0
+[2025.02.07-01.48.46:127][928]LogBlueprintUserMessages: [BP_HealthComponent] 68.8
+[2025.02.07-01.48.46:135][929]LogBlueprintUserMessages: [BP_HealthComponent] 68.6
+[2025.02.07-01.48.46:144][930]LogBlueprintUserMessages: [BP_HealthComponent] 68.4
+[2025.02.07-01.48.46:152][931]LogBlueprintUserMessages: [BP_HealthComponent] 68.2
+[2025.02.07-01.48.46:161][932]LogBlueprintUserMessages: [BP_HealthComponent] 68.0
+[2025.02.07-01.48.46:168][933]LogBlueprintUserMessages: [BP_HealthComponent] 67.8
+[2025.02.07-01.48.46:176][934]LogBlueprintUserMessages: [BP_HealthComponent] 67.6
+[2025.02.07-01.48.46:185][935]LogBlueprintUserMessages: [BP_HealthComponent] 67.4
+[2025.02.07-01.48.46:193][936]LogBlueprintUserMessages: [BP_HealthComponent] 67.2
+[2025.02.07-01.48.46:202][937]LogBlueprintUserMessages: [BP_HealthComponent] 67.0
+[2025.02.07-01.48.46:210][938]LogBlueprintUserMessages: [BP_HealthComponent] 66.8
+[2025.02.07-01.48.46:218][939]LogBlueprintUserMessages: [BP_HealthComponent] 46.8
+[2025.02.07-01.48.46:218][939]LogBlueprintUserMessages: [BP_HealthComponent] 46.6
+[2025.02.07-01.48.46:226][940]LogBlueprintUserMessages: [BP_HealthComponent] 46.4
+[2025.02.07-01.48.46:235][941]LogBlueprintUserMessages: [BP_HealthComponent] 46.2
+[2025.02.07-01.48.46:243][942]LogBlueprintUserMessages: [BP_HealthComponent] 46.0
+[2025.02.07-01.48.46:251][943]LogBlueprintUserMessages: [BP_HealthComponent] 45.8
+[2025.02.07-01.48.46:260][944]LogBlueprintUserMessages: [BP_HealthComponent] 45.6
+[2025.02.07-01.48.46:269][945]LogBlueprintUserMessages: [BP_HealthComponent] 45.4
+[2025.02.07-01.48.46:277][946]LogBlueprintUserMessages: [BP_HealthComponent] 45.2
+[2025.02.07-01.48.46:285][947]LogBlueprintUserMessages: [BP_HealthComponent] 45.0
+[2025.02.07-01.48.46:294][948]LogBlueprintUserMessages: [BP_HealthComponent] 44.8
+[2025.02.07-01.48.46:301][949]LogBlueprintUserMessages: [BP_HealthComponent] 44.6
+[2025.02.07-01.48.46:310][950]LogBlueprintUserMessages: [BP_HealthComponent] 44.4
+[2025.02.07-01.48.46:318][951]LogBlueprintUserMessages: [BP_HealthComponent] 44.2
+[2025.02.07-01.48.46:326][952]LogBlueprintUserMessages: [BP_HealthComponent] 44.0
+[2025.02.07-01.48.46:335][953]LogBlueprintUserMessages: [BP_HealthComponent] 43.8
+[2025.02.07-01.48.46:344][954]LogBlueprintUserMessages: [BP_HealthComponent] 43.6
+[2025.02.07-01.48.46:352][955]LogBlueprintUserMessages: [BP_HealthComponent] 43.4
+[2025.02.07-01.48.46:360][956]LogBlueprintUserMessages: [BP_HealthComponent] 43.2
+[2025.02.07-01.48.46:368][957]LogBlueprintUserMessages: [BP_HealthComponent] 43.0
+[2025.02.07-01.48.46:377][958]LogBlueprintUserMessages: [BP_HealthComponent] 42.8
+[2025.02.07-01.48.46:385][959]LogBlueprintUserMessages: [BP_HealthComponent] 42.6
+[2025.02.07-01.48.46:393][960]LogBlueprintUserMessages: [BP_HealthComponent] 42.4
+[2025.02.07-01.48.46:401][961]LogBlueprintUserMessages: [BP_HealthComponent] 42.2
+[2025.02.07-01.48.46:410][962]LogBlueprintUserMessages: [BP_HealthComponent] 42.0
+[2025.02.07-01.48.46:418][963]LogBlueprintUserMessages: [BP_HealthComponent] 41.8
+[2025.02.07-01.48.46:426][964]LogBlueprintUserMessages: [BP_HealthComponent] 41.6
+[2025.02.07-01.48.46:435][965]LogBlueprintUserMessages: [BP_HealthComponent] 41.4
+[2025.02.07-01.48.46:443][966]LogBlueprintUserMessages: [BP_HealthComponent] 41.2
+[2025.02.07-01.48.46:452][967]LogBlueprintUserMessages: [BP_HealthComponent] 41.0
+[2025.02.07-01.48.46:460][968]LogBlueprintUserMessages: [BP_HealthComponent] 40.8
+[2025.02.07-01.48.46:468][969]LogBlueprintUserMessages: [BP_HealthComponent] 40.6
+[2025.02.07-01.48.46:477][970]LogBlueprintUserMessages: [BP_HealthComponent] 40.4
+[2025.02.07-01.48.46:485][971]LogBlueprintUserMessages: [BP_HealthComponent] 40.2
+[2025.02.07-01.48.46:493][972]LogBlueprintUserMessages: [BP_HealthComponent] 40.0
+[2025.02.07-01.48.46:501][973]LogBlueprintUserMessages: [BP_HealthComponent] 39.8
+[2025.02.07-01.48.46:510][974]LogBlueprintUserMessages: [BP_HealthComponent] 39.6
+[2025.02.07-01.48.46:519][975]LogBlueprintUserMessages: [BP_HealthComponent] 39.4
+[2025.02.07-01.48.46:527][976]LogBlueprintUserMessages: [BP_HealthComponent] 39.2
+[2025.02.07-01.48.46:535][977]LogBlueprintUserMessages: [BP_HealthComponent] 39.0
+[2025.02.07-01.48.46:543][978]LogBlueprintUserMessages: [BP_HealthComponent] 38.8
+[2025.02.07-01.48.46:552][979]LogBlueprintUserMessages: [BP_HealthComponent] 38.6
+[2025.02.07-01.48.46:560][980]LogBlueprintUserMessages: [BP_HealthComponent] 38.4
+[2025.02.07-01.48.46:568][981]LogBlueprintUserMessages: [BP_HealthComponent] 38.2
+[2025.02.07-01.48.46:577][982]LogBlueprintUserMessages: [BP_HealthComponent] 38.0
+[2025.02.07-01.48.46:585][983]LogBlueprintUserMessages: [BP_HealthComponent] 37.8
+[2025.02.07-01.48.46:593][984]LogBlueprintUserMessages: [BP_HealthComponent] 37.6
+[2025.02.07-01.48.46:602][985]LogBlueprintUserMessages: [BP_HealthComponent] 37.4
+[2025.02.07-01.48.46:610][986]LogBlueprintUserMessages: [BP_HealthComponent] 37.2
+[2025.02.07-01.48.46:618][987]LogBlueprintUserMessages: [BP_HealthComponent] 37.0
+[2025.02.07-01.48.46:627][988]LogBlueprintUserMessages: [BP_HealthComponent] 36.8
+[2025.02.07-01.48.46:635][989]LogBlueprintUserMessages: [BP_HealthComponent] 36.6
+[2025.02.07-01.48.46:643][990]LogBlueprintUserMessages: [BP_HealthComponent] 36.4
+[2025.02.07-01.48.46:652][991]LogBlueprintUserMessages: [BP_HealthComponent] 36.2
+[2025.02.07-01.48.46:660][992]LogBlueprintUserMessages: [BP_HealthComponent] 36.0
+[2025.02.07-01.48.46:668][993]LogBlueprintUserMessages: [BP_HealthComponent] 35.8
+[2025.02.07-01.48.46:676][994]LogBlueprintUserMessages: [BP_HealthComponent] 35.6
+[2025.02.07-01.48.46:685][995]LogBlueprintUserMessages: [BP_HealthComponent] 35.4
+[2025.02.07-01.48.46:693][996]LogBlueprintUserMessages: [BP_HealthComponent] 35.2
+[2025.02.07-01.48.46:702][997]LogBlueprintUserMessages: [BP_HealthComponent] 35.0
+[2025.02.07-01.48.46:710][998]LogBlueprintUserMessages: [BP_HealthComponent] 34.8
+[2025.02.07-01.48.46:718][999]LogBlueprintUserMessages: [BP_HealthComponent] 34.6
+[2025.02.07-01.48.46:726][  0]LogBlueprintUserMessages: [BP_HealthComponent] 34.4
+[2025.02.07-01.48.46:735][  1]LogBlueprintUserMessages: [BP_HealthComponent] 34.2
+[2025.02.07-01.48.46:744][  2]LogBlueprintUserMessages: [BP_HealthComponent] 34.0
+[2025.02.07-01.48.46:752][  3]LogBlueprintUserMessages: [BP_HealthComponent] 33.8
+[2025.02.07-01.48.46:760][  4]LogBlueprintUserMessages: [BP_HealthComponent] 33.6
+[2025.02.07-01.48.46:768][  5]LogBlueprintUserMessages: [BP_HealthComponent] 33.4
+[2025.02.07-01.48.46:776][  6]LogBlueprintUserMessages: [BP_HealthComponent] 33.2
+[2025.02.07-01.48.46:785][  7]LogBlueprintUserMessages: [BP_HealthComponent] 33.0
+[2025.02.07-01.48.46:793][  8]LogBlueprintUserMessages: [BP_HealthComponent] 32.8
+[2025.02.07-01.48.46:802][  9]LogBlueprintUserMessages: [BP_HealthComponent] 32.6
+[2025.02.07-01.48.46:810][ 10]LogBlueprintUserMessages: [BP_HealthComponent] 32.4
+[2025.02.07-01.48.46:818][ 11]LogBlueprintUserMessages: [BP_HealthComponent] 32.2
+[2025.02.07-01.48.46:827][ 12]LogBlueprintUserMessages: [BP_HealthComponent] 32.0
+[2025.02.07-01.48.46:835][ 13]LogBlueprintUserMessages: [BP_HealthComponent] 31.8
+[2025.02.07-01.48.46:843][ 14]LogBlueprintUserMessages: [BP_HealthComponent] 31.6
+[2025.02.07-01.48.46:851][ 15]LogBlueprintUserMessages: [BP_HealthComponent] 31.4
+[2025.02.07-01.48.46:859][ 16]LogBlueprintUserMessages: [BP_HealthComponent] 31.2
+[2025.02.07-01.48.46:868][ 17]LogBlueprintUserMessages: [BP_HealthComponent] 31.0
+[2025.02.07-01.48.46:877][ 18]LogBlueprintUserMessages: [BP_HealthComponent] 30.8
+[2025.02.07-01.48.46:885][ 19]LogBlueprintUserMessages: [BP_HealthComponent] 30.6
+[2025.02.07-01.48.46:893][ 20]LogBlueprintUserMessages: [BP_HealthComponent] 30.4
+[2025.02.07-01.48.46:902][ 21]LogBlueprintUserMessages: [BP_HealthComponent] 30.2
+[2025.02.07-01.48.46:910][ 22]LogBlueprintUserMessages: [BP_HealthComponent] 30.0
+[2025.02.07-01.48.46:918][ 23]LogBlueprintUserMessages: [BP_HealthComponent] 29.8
+[2025.02.07-01.48.46:926][ 24]LogBlueprintUserMessages: [BP_HealthComponent] 29.6
+[2025.02.07-01.48.46:935][ 25]LogBlueprintUserMessages: [BP_HealthComponent] 29.4
+[2025.02.07-01.48.46:943][ 26]LogBlueprintUserMessages: [BP_HealthComponent] 29.2
+[2025.02.07-01.48.46:952][ 27]LogBlueprintUserMessages: [BP_HealthComponent] 29.0
+[2025.02.07-01.48.46:960][ 28]LogBlueprintUserMessages: [BP_HealthComponent] 28.8
+[2025.02.07-01.48.46:968][ 29]LogBlueprintUserMessages: [BP_HealthComponent] 28.6
+[2025.02.07-01.48.46:976][ 30]LogBlueprintUserMessages: [BP_HealthComponent] 28.4
+[2025.02.07-01.48.46:985][ 31]LogBlueprintUserMessages: [BP_HealthComponent] 28.2
+[2025.02.07-01.48.46:993][ 32]LogBlueprintUserMessages: [BP_HealthComponent] 28.0
+[2025.02.07-01.48.47:002][ 33]LogBlueprintUserMessages: [BP_HealthComponent] 27.8
+[2025.02.07-01.48.47:010][ 34]LogBlueprintUserMessages: [BP_HealthComponent] 27.6
+[2025.02.07-01.48.47:018][ 35]LogBlueprintUserMessages: [BP_HealthComponent] 27.4
+[2025.02.07-01.48.47:027][ 36]LogBlueprintUserMessages: [BP_HealthComponent] 27.2
+[2025.02.07-01.48.47:035][ 37]LogBlueprintUserMessages: [BP_HealthComponent] 27.0
+[2025.02.07-01.48.47:043][ 38]LogBlueprintUserMessages: [BP_HealthComponent] 26.8
+[2025.02.07-01.48.47:052][ 39]LogBlueprintUserMessages: [BP_HealthComponent] 26.6
+[2025.02.07-01.48.47:060][ 40]LogBlueprintUserMessages: [BP_HealthComponent] 26.4
+[2025.02.07-01.48.47:068][ 41]LogBlueprintUserMessages: [BP_HealthComponent] 26.2
+[2025.02.07-01.48.47:077][ 42]LogBlueprintUserMessages: [BP_HealthComponent] 26.0
+[2025.02.07-01.48.47:085][ 43]LogBlueprintUserMessages: [BP_HealthComponent] 25.8
+[2025.02.07-01.48.47:094][ 44]LogBlueprintUserMessages: [BP_HealthComponent] 26.216675
+[2025.02.07-01.48.47:102][ 45]LogBlueprintUserMessages: [BP_HealthComponent] 26.63335
+[2025.02.07-01.48.47:110][ 46]LogBlueprintUserMessages: [BP_HealthComponent] 27.05002
+[2025.02.07-01.48.47:119][ 47]LogBlueprintUserMessages: [BP_HealthComponent] 27.466695
+[2025.02.07-01.48.47:127][ 48]LogBlueprintUserMessages: [BP_HealthComponent] 27.88337
+[2025.02.07-01.48.47:135][ 49]LogBlueprintUserMessages: [BP_HealthComponent] 28.30004
+[2025.02.07-01.48.47:143][ 50]LogBlueprintUserMessages: [BP_HealthComponent] 28.716715
+[2025.02.07-01.48.47:151][ 51]LogBlueprintUserMessages: [BP_HealthComponent] 29.13339
+[2025.02.07-01.48.47:160][ 52]LogBlueprintUserMessages: [BP_HealthComponent] 29.550065
+[2025.02.07-01.48.47:168][ 53]LogBlueprintUserMessages: [BP_HealthComponent] 29.96674
+[2025.02.07-01.48.47:177][ 54]LogBlueprintUserMessages: [BP_HealthComponent] 30.38341
+[2025.02.07-01.48.47:185][ 55]LogBlueprintUserMessages: [BP_HealthComponent] 30.800085
+[2025.02.07-01.48.47:193][ 56]LogBlueprintUserMessages: [BP_HealthComponent] 31.21676
+[2025.02.07-01.48.47:202][ 57]LogBlueprintUserMessages: [BP_HealthComponent] 31.63343
+[2025.02.07-01.48.47:210][ 58]LogBlueprintUserMessages: [BP_HealthComponent] 32.0501
+[2025.02.07-01.48.47:219][ 59]LogBlueprintUserMessages: [BP_HealthComponent] 32.466775
+[2025.02.07-01.48.47:227][ 60]LogBlueprintUserMessages: [BP_HealthComponent] 32.88345
+[2025.02.07-01.48.47:235][ 61]LogBlueprintUserMessages: [BP_HealthComponent] 33.30013
+[2025.02.07-01.48.47:244][ 62]LogBlueprintUserMessages: [BP_HealthComponent] 33.7168
+[2025.02.07-01.48.47:252][ 63]LogBlueprintUserMessages: [BP_HealthComponent] 34.133475
+[2025.02.07-01.48.47:261][ 64]LogBlueprintUserMessages: [BP_HealthComponent] 34.55015
+[2025.02.07-01.48.47:268][ 65]LogBlueprintUserMessages: [BP_HealthComponent] 34.96682
+[2025.02.07-01.48.47:277][ 66]LogBlueprintUserMessages: [BP_HealthComponent] 35.38349
+[2025.02.07-01.48.47:285][ 67]LogBlueprintUserMessages: [BP_HealthComponent] 35.80017
+[2025.02.07-01.48.47:294][ 68]LogBlueprintUserMessages: [BP_HealthComponent] 36.21684
+[2025.02.07-01.48.47:303][ 69]LogBlueprintUserMessages: [BP_HealthComponent] 36.63351
+[2025.02.07-01.48.47:311][ 70]LogBlueprintUserMessages: [BP_HealthComponent] 37.050185
+[2025.02.07-01.48.47:319][ 71]LogBlueprintUserMessages: [BP_HealthComponent] 37.46686
+[2025.02.07-01.48.47:327][ 72]LogBlueprintUserMessages: [BP_HealthComponent] 37.88353
+[2025.02.07-01.48.47:335][ 73]LogBlueprintUserMessages: [BP_HealthComponent] 38.300205
+[2025.02.07-01.48.47:343][ 74]LogBlueprintUserMessages: [BP_HealthComponent] 38.716885
+[2025.02.07-01.48.47:352][ 75]LogBlueprintUserMessages: [BP_HealthComponent] 39.133565
+[2025.02.07-01.48.47:360][ 76]LogBlueprintUserMessages: [BP_HealthComponent] 39.550235
+[2025.02.07-01.48.47:369][ 77]LogBlueprintUserMessages: [BP_HealthComponent] 39.96691
+[2025.02.07-01.48.47:377][ 78]LogBlueprintUserMessages: [BP_HealthComponent] 40.38358
+[2025.02.07-01.48.47:385][ 79]LogBlueprintUserMessages: [BP_HealthComponent] 40.80025
+[2025.02.07-01.48.47:394][ 80]LogBlueprintUserMessages: [BP_HealthComponent] 41.21692
+[2025.02.07-01.48.47:402][ 81]LogBlueprintUserMessages: [BP_HealthComponent] 41.633595
+[2025.02.07-01.48.47:410][ 82]LogBlueprintUserMessages: [BP_HealthComponent] 42.050265
+[2025.02.07-01.48.47:419][ 83]LogBlueprintUserMessages: [BP_HealthComponent] 42.46694
+[2025.02.07-01.48.47:427][ 84]LogBlueprintUserMessages: [BP_HealthComponent] 42.88361
+[2025.02.07-01.48.47:435][ 85]LogBlueprintUserMessages: [BP_HealthComponent] 43.30028
+[2025.02.07-01.48.47:477][ 85]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.02.07-01.48.47:477][ 85]LogWorld: BeginTearingDown for /Game/Characters/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2025.02.07-01.48.47:477][ 85]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2025.02.07-01.48.47:478][ 85]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.07-01.48.47:478][ 85]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Characters/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap
+[2025.02.07-01.48.47:478][ 85]LogContentBundle: [FirstPersonMap(Standalone)] Deleting container.
+[2025.02.07-01.48.47:478][ 85]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2025.02.07-01.48.47:478][ 85]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2025.02.07-01.48.47:482][ 85]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.02.07-01.48.47:486][ 85]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.07-01.48.47:499][ 85]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.02.07-01.48.47:500][ 85]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 12
+[2025.02.07-01.48.47:500][ 85]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2025.02.07-01.48.47:501][ 85]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2025.02.07-01.48.47:504][ 85]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.02.07-01.48.47:506][ 85]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2025.02.07-01.48.47:550][ 86]LogPlayLevel: Display: Destroying online subsystem :Context_31
+[2025.02.07-01.48.56:577][350]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2025.02.07-01.48.56:581][350]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.02.07-01.48.56:652][350]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Characters/FirstPerson/Maps/FirstPersonMap/4/XP/RBMPQY3T0CPBMTASNIDQ0E
+[2025.02.07-01.48.56:652][350]LogSavePackage: Moving '../../../../Git/OtusProjectLessons/Saved/RBMPQY3T0CPBMTASNIDQ0E8F47CEE7407EDEB2C01CEEB91893EE16.tmp' to '../../../../Git/OtusProjectLessons/Content/__ExternalActors__/Characters/FirstPerson/Maps/FirstPersonMap/4/XP/RBMPQY3T0CPBMTASNIDQ0E.uasset'
+[2025.02.07-01.48.56:653][350]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Characters/FirstPerson/Blueprints/BP_FirstPersonGameMode] ([2] browsable assets)...
+[2025.02.07-01.48.56:653][350]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/FirstPerson/Blueprints/BP_FirstPersonGameMode]
+[2025.02.07-01.48.56:655][350]LogSavePackage: Moving output files for package: /Game/Characters/FirstPerson/Blueprints/BP_FirstPersonGameMode
+[2025.02.07-01.48.56:655][350]LogSavePackage: Moving '../../../../Git/OtusProjectLessons/Saved/BP_FirstPersonGameMode8380B5BF4A674B2C975709B3B1107161.tmp' to '../../../../Git/OtusProjectLessons/Content/Characters/FirstPerson/Blueprints/BP_FirstPersonGameMode.uasset'
+[2025.02.07-01.48.56:656][350]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Characters/ThirdPersonCharacter/Blueprints/BP_Maya] ([2] browsable assets)...
+[2025.02.07-01.48.56:662][350]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2025.02.07-01.48.56:662][350]LogScript: Warning: Script Msg called by: ABP_Maya_C /Engine/Transient.World_20:PersistentLevel.BP_Maya_C_0.CharacterMesh0.ABP_Maya_C_0
+[2025.02.07-01.48.56:691][350]OBJ SavePackage:     Rendered thumbnail for [BlueprintGeneratedClass /Game/Characters/ThirdPersonCharacter/Blueprints/BP_Maya.BP_Maya_C]
+[2025.02.07-01.48.56:695][350]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Characters/ThirdPersonCharacter/Blueprints/BP_Maya.BP_Maya]
+[2025.02.07-01.48.56:695][350]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/ThirdPersonCharacter/Blueprints/BP_Maya]
+[2025.02.07-01.48.56:718][350]LogSavePackage: Moving output files for package: /Game/Characters/ThirdPersonCharacter/Blueprints/BP_Maya
+[2025.02.07-01.48.56:718][350]LogSavePackage: Moving '../../../../Git/OtusProjectLessons/Saved/BP_MayaC249A558460C8E73C079AAACD2E21AAE.tmp' to '../../../../Git/OtusProjectLessons/Content/Characters/ThirdPersonCharacter/Blueprints/BP_Maya.uasset'
+[2025.02.07-01.48.56:719][350]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/ThirdPersonCharacter/Animations/Riffle/Locomotion/BS_RiffleLocomotion] ([1] browsable assets)...
+[2025.02.07-01.48.56:725][350]OBJ SavePackage:     Rendered thumbnail for [BlendSpace1D /Game/Characters/ThirdPersonCharacter/Animations/Riffle/Locomotion/BS_RiffleLocomotion.BS_RiffleLocomotion]
+[2025.02.07-01.48.56:725][350]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/ThirdPersonCharacter/Animations/Riffle/Locomotion/BS_RiffleLocomotion]
+[2025.02.07-01.48.56:726][350]LogSavePackage: Moving output files for package: /Game/Characters/ThirdPersonCharacter/Animations/Riffle/Locomotion/BS_RiffleLocomotion
+[2025.02.07-01.48.56:726][350]LogSavePackage: Moving '../../../../Git/OtusProjectLessons/Saved/BS_RiffleLocomotionFCFAFBDB4B4EC6D43F97299A33617E1B.tmp' to '../../../../Git/OtusProjectLessons/Content/Characters/ThirdPersonCharacter/Animations/Riffle/Locomotion/BS_RiffleLocomotion.uasset'
+[2025.02.07-01.48.56:727][350]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/ThirdPersonCharacter/Animations/Riffle/Locomotion/Rifle_Walk] ([1] browsable assets)...
+[2025.02.07-01.48.56:733][350]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Characters/ThirdPersonCharacter/Animations/Riffle/Locomotion/Rifle_Walk.Rifle_Walk]
+[2025.02.07-01.48.56:733][350]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/ThirdPersonCharacter/Animations/Riffle/Locomotion/Rifle_Walk]
+[2025.02.07-01.48.56:746][350]LogSavePackage: Moving output files for package: /Game/Characters/ThirdPersonCharacter/Animations/Riffle/Locomotion/Rifle_Walk
+[2025.02.07-01.48.56:746][350]LogSavePackage: Moving '../../../../Git/OtusProjectLessons/Saved/Rifle_WalkF48C165B4289812FAEC943A6A5FF809F.tmp' to '../../../../Git/OtusProjectLessons/Content/Characters/ThirdPersonCharacter/Animations/Riffle/Locomotion/Rifle_Walk.uasset'
+[2025.02.07-01.48.56:759][350]LogFileHelpers: InternalPromptForCheckoutAndSave took 177.812 ms (total: 278.921 ms)
+[2025.02.07-01.48.56:861][350]LogContentValidation: Display: Starting to validate 5 assets
+[2025.02.07-01.48.56:861][350]LogContentValidation: Enabled validators:
+[2025.02.07-01.48.56:861][350]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.02.07-01.48.56:861][350]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.02.07-01.48.56:861][350]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.02.07-01.48.56:861][350]LogContentValidation: Display: Validating asset /Game/Characters/FirstPerson/Maps/FirstPersonMap.FirstPersonMap
+[2025.02.07-01.48.56:861][350]AssetCheck: /Game/Characters/FirstPerson/Maps/FirstPersonMap Validating asset
+[2025.02.07-01.48.56:861][350]LogContentValidation: Display: Validating asset /Game/Characters/FirstPerson/Blueprints/BP_FirstPersonGameMode.BP_FirstPersonGameMode
+[2025.02.07-01.48.56:861][350]AssetCheck: /Game/Characters/FirstPerson/Blueprints/BP_FirstPersonGameMode Validating asset
+[2025.02.07-01.48.56:861][350]LogContentValidation: Display: Validating asset /Game/Characters/ThirdPersonCharacter/Blueprints/BP_Maya.BP_Maya
+[2025.02.07-01.48.56:861][350]AssetCheck: /Game/Characters/ThirdPersonCharacter/Blueprints/BP_Maya Validating asset
+[2025.02.07-01.48.56:861][350]LogContentValidation: Display: Validating asset /Game/Characters/ThirdPersonCharacter/Animations/Riffle/Locomotion/BS_RiffleLocomotion.BS_RiffleLocomotion
+[2025.02.07-01.48.56:861][350]AssetCheck: /Game/Characters/ThirdPersonCharacter/Animations/Riffle/Locomotion/BS_RiffleLocomotion Validating asset
+[2025.02.07-01.48.56:861][350]LogContentValidation: Display: Validating asset /Game/Characters/ThirdPersonCharacter/Animations/Riffle/Locomotion/Rifle_Walk.Rifle_Walk
+[2025.02.07-01.48.56:861][350]AssetCheck: /Game/Characters/ThirdPersonCharacter/Animations/Riffle/Locomotion/Rifle_Walk Validating asset
