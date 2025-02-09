@@ -22,3 +22,7 @@ Saved/Logs/OtusProject.log
 /Saved/Logs
 Saved/Logs/OtusProject-backup-2025.01.22-12.48.57.log
 *.log
+/Content/Fantastic_Village_Pack/maps
+/Saved/Logs
+/Saved/Telemetry
+*.log
